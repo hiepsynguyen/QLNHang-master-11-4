@@ -1,0 +1,99 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <UserSecretsId>aspnet-WebApplication8-C4721444-3399-49FD-A22A-14DB543103A7</UserSecretsId>
+    <TypeScriptToolsVersion>2.8</TypeScriptToolsVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Views\Cart\**" />
+    <Compile Remove="Views\Customer\**" />
+    <Compile Remove="Views\Home\**" />
+    <Compile Remove="Views\Order\**" />
+    <Compile Remove="Views\Product\**" />
+    <Content Remove="Views\Cart\**" />
+    <Content Remove="Views\Customer\**" />
+    <Content Remove="Views\Home\**" />
+    <Content Remove="Views\Order\**" />
+    <Content Remove="Views\Product\**" />
+    <EmbeddedResource Remove="Views\Cart\**" />
+    <EmbeddedResource Remove="Views\Customer\**" />
+    <EmbeddedResource Remove="Views\Home\**" />
+    <EmbeddedResource Remove="Views\Order\**" />
+    <EmbeddedResource Remove="Views\Product\**" />
+    <None Remove="Views\Cart\**" />
+    <None Remove="Views\Customer\**" />
+    <None Remove="Views\Home\**" />
+    <None Remove="Views\Order\**" />
+    <None Remove="Views\Product\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\CartController.cs" />
+    <Compile Remove="Controllers\CustomerController.cs" />
+    <Compile Remove="Controllers\FileManagerController.cs" />
+    <Compile Remove="Controllers\OrderController.cs" />
+    <Compile Remove="Controllers\ProductController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" PrivateAssets="All" />
+    <PackageReference Include="NETCore.MailKit" Version="2.0.2" />
+    <PackageReference Include="Sakura.AspNetCore.PagedList" Version="2.0.2" />
+    <PackageReference Include="Stripe.net" Version="16.10.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Content\img\categories\" />
+    <Folder Include="wwwroot\Content\img\files\" />
+    <Folder Include="wwwroot\Content\img\flash\" />
+    <Folder Include="wwwroot\Content\img\images\" />
+    <Folder Include="wwwroot\Content\img\photos\" />
+    <Folder Include="wwwroot\Content\img\productsflash\" />
+    <Folder Include="wwwroot\Content\img\products\files\" />
+    <Folder Include="wwwroot\Content\img\products\flash\" />
+    <Folder Include="wwwroot\Content\img\_thumbs\Images\" />
+    <Folder Include="wwwroot\Scripts\RichFilemanager\connectors\aspnetcore\" />
+    <Folder Include="wwwroot\Scripts\RichFilemanager\connectors\php\vendor\doctrine\inflector\lib\Doctrine\Common\Inflector\" />
+    <Folder Include="wwwroot\Scripts\RichFilemanager\connectors\php\vendor\doctrine\inflector\tests\Doctrine\Tests\Common\" />
+    <Folder Include="wwwroot\Scripts\RichFilemanager\connectors\php\vendor\symfony\finder\Tests\Fixtures\r+e.gex[c]a%28r%29s\" />
+    <Folder Include="wwwroot\Scripts\RichFilemanager\connectors\php\vendor\symfony\http-foundation\Exception\" />
+    <Folder Include="wwwroot\Scripts\RichFilemanager\connectors\php\vendor\symfony\http-foundation\Session\Storage\Handler\" />
+    <Folder Include="wwwroot\Scripts\RichFilemanager\connectors\php\vendor\symfony\http-foundation\Session\Storage\Proxy\" />
+    <Folder Include="wwwroot\Scripts\RichFilemanager\connectors\php\vendor\symfony\http-foundation\Tests\Session\Attribute\" />
+    <Folder Include="wwwroot\Scripts\RichFilemanager\connectors\php\vendor\symfony\http-foundation\Tests\Session\Storage\" />
+    <Folder Include="wwwroot\Scripts\RichFilemanager\connectors\php\vendor\symfony\polyfill-php54\Resources\stubs\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Areas\Admin\Views\Shared\Components\NotificationAdmin\Default.cshtml" />
+    <None Include="Areas\Admin\Views\Shared\Partials\_Aside.cshtml" />
+    <None Include="Areas\Admin\Views\Shared\Partials\_ControlSideBar.cshtml" />
+    <None Include="Areas\Admin\Views\Shared\Partials\_Footer.cshtml" />
+    <None Include="Areas\Admin\Views\Shared\Partials\_Header.cshtml" />
+    <None Include="Areas\Admin\Views\Shared\_Alerts.cshtml" />
+    <None Include="Areas\Admin\Views\Shared\_Layout.cshtml" />
+    <None Include="Views\Shared\Error.cshtml" />
+    <None Include="Views\Shared\_CookieConsentPartial.cshtml" />
+    <None Include="Views\Shared\_Layout.cshtml" />
+    <None Include="Views\Shared\_LoginPartial.cshtml" />
+    <None Include="Views\Shared\_ValidationScriptsPartial.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DAL\DAL.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,67 @@
+﻿@model DAL.QLNHangData.Tblfood
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Tblfood</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FodName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.FodName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Pic)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Pic)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Rate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Rate)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Del)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Del)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.FodAvailable)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.FodAvailable)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Fodca)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Fodca.FodcaId)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.FodId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

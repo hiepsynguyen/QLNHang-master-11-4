@@ -1,0 +1,82 @@
+﻿@model DAL.QLNHangData.Tbldeparment
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Tbldeparment</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DepNm)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DepNm)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DepN1)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DepN1)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DepHg)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DepHg)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ColNo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ColNo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.PeoTt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PeoTt)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.SegHr)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SegHr)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.RouMn)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.RouMn)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.RemDr)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.RemDr)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.SeqNo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SeqNo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DirDp)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DirDp)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="DepId" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

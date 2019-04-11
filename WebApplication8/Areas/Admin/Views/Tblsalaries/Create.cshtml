@@ -1,0 +1,61 @@
+﻿@model DAL.QLNHangData.Tblsalary
+
+@{
+    ViewData["Title"] = "Tạo lương cơ bản";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" id="form-add-basic-salary" onsubmit="return addSalary();">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label class="control-label">Mã nhân viên</label>
+                <input asp-for="EmpId" class="form-control" readonly />
+                <span asp-validation-for="EmpId" class="text-danger"></span>
+            </div>
+            @*<div class="form-group">
+                <label asp-for="SeqNo" class="control-label"></label>
+
+                <span asp-validation-for="SeqNo" class="text-danger"></span>
+            </div>*@
+            <input asp-for="SeqNo" class="form-control" type="hidden"/>
+            <div class="form-group">
+                <label asp-for="ChaDt" class="control-label">Ngày áp dụng</label>
+                <input asp-for="ChaDt" type="date" class="form-control" required/>
+                <span asp-validation-for="ChaDt" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Lương cơ bản</label>
+                <input asp-for="Lcb" class="form-control" required/>
+                <span asp-validation-for="Lcb" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-sm btn-flat btn-success" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" class="btn btn-sm btn-warning btn-flat">Back to List</a>
+</div>
+@section scripts{
+    <script>
+        function addSalary() {
+            $.post('@Url.RouteUrl(new { controller= "Tblsalaries", action= "CreatePost", area="admin"})',
+                $('#form-add-basic-salary').serialize(),
+                function (response) {
+                    if (response === "" || response === null) {
+                        alert("Thêm thành công...");
+                        window.close();
+                    }
+                    else {
+                        alert(response);
+                    }
+                });
+            return false;
+        }
+    </script>
+}
+

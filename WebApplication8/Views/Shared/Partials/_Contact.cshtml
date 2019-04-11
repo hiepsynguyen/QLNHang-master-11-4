@@ -1,0 +1,29 @@
+﻿
+<link href="/Content/contact-popup.css" rel="stylesheet" />
+<script src="/Scripts/popup.js"></script>
+<div id="contact_popup" class="" style="height: 240px; bottom: 0px;right:3px">
+    <div id="contact_header">Email Us!</div>
+    
+    <div id="contact_message_sent">
+        Your message was successfully sent!
+    </div>
+    <div id="contact_message_error">
+    </div>
+    <div id="contact_form_container">
+        <form method="post" action="/Mail/Send" class="contact_popup_form" id="contact_popup_form">
+            <input type="hidden" name="action" value="contact_popup_send">
+
+            <label for="name">Name:</label>
+            <input class="form-control" type="text" id="contact_form_name" name="name" value="" placeholder="" required><br>
+
+            <label for="email">Email Address:</label>
+            <input class="form-control" type="email" id="contact_form_email" name="email" value="" placeholder="" required><br>
+            <label for="message">Message:</label>
+            <textarea class="form-control" id="contact_form_message" name="message" placeholder="" required data-minlength="1"></textarea><br>
+
+            <input class="btn btn-primary" type="submit" value="Send Message" id="popup-submit-button">
+
+        </form>
+    </div>
+</div>
+

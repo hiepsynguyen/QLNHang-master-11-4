@@ -1,0 +1,98 @@
+﻿@model IEnumerable<DAL.QLNHangData.Tblroster>
+
+@{
+    ViewData["Title"] = "Quản lý ca";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<div class="col-md-12">
+    <a asp-action="Create" class="btn btn-flat btn-success btn-sm"><i class="fa fa-plus"></i></a>
+</div>
+
+<div class="col-md-12" style="max-height: 50%">
+    <div class="table-responsive">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>
+                        Mã ca
+                    </th>
+                    <th>
+                        Tên ca
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr class="shift-details" data-id="@item.ShiId">
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ShiId)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ShiNm)
+                        </td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.ShiId" class="btn btn-flat btn-warning btn-sm"><i class="fa fa-pencil"></i></a> |
+                            @*<a asp-action="Details" asp-route-id="@item.ShiId" class="btn btn-flat btn-warning btn-sm">Details</a> |*@
+                            <a asp-action="Delete" asp-route-id="@item.ShiId" class="btn btn-flat btn-danger btn-sm"><i class="fa fa-close"></i></a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="col-md-12">
+    @*<button class="btn btn-success btn-flat btn-sm"><i class="fa fa-plus"></i></button>*@
+    <a class="btn btn-success btn-flat btn-sm" id="url-create-details-roster" target="_blank" data-burl="@Url.RouteUrl(new { controller= "Tbldetailsrosters", action="Create", area="admin"})?ShiId={0}" 
+       href="#"><i class="fa fa-plus"></i></a>
+</div>
+<div class="col-md-12" style="max-height:50%">
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>SEQ</th>
+                    <th>Giờ vào</th>
+                    <th>Giờ ra</th>
+                    <th>Loại ca</th>
+                    <th>Giờ công</th>
+                </tr>
+            </thead>
+            <tbody id="details-roster">
+                
+            </tbody>
+        </table>
+    </div>
+</div>
+@section scripts{ 
+<script>
+        $(document).ready(function() {
+            //alert('abc');
+            $('.shift-details').off().on('click', function (e) {
+                $('.shift-details').removeClass('bg-blue-selected');
+                $(this).addClass('bg-blue-selected');
+                var id = $(this).data('id');
+                var href_a = $('#url-create-details-roster').data('burl');
+                $('#url-create-details-roster').attr('href', href_a.replace('{0}', id));
+                 $.ajax({
+	                 url: '@Url.RouteUrl(new {controller= "Tbldetailsrosters", action= "GetListDetailsRosterByRoster", area="admin" })',
+	                 data: {
+		                 ShiId: id
+	                 },
+	                 type: 'GET',
+	                 success: function(response) {
+		                 $('#details-roster').html(response);
+	                 },
+	                 error: function (xhr) {
+
+	                 }
+                });
+                //console.log("data id" + id);
+            });
+        });
+</script>
+
+}
+

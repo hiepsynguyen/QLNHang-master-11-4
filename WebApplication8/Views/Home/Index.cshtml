@@ -1,0 +1,243 @@
+﻿@model IEnumerable<WebApplication8.Models.WebShop.Category>
+@using System.Globalization
+@*
+
+
+*@
+@{
+    ViewBag.Title = "Shop Online";
+}
+
+
+
+<div id="result"></div>
+
+
+<!-- ========================================== SECTION – HERO ========================================= -->
+
+
+<div id="hero">
+    <div id="owl-main" class="owl-carousel owl-inner-nav owl-ui-sm">
+        @foreach (WebApplication8.Models.WebShop.Product pr in ViewBag.Random)
+        {
+
+            var name = pr.Name;
+
+            <div class="item">
+                <a href="@Url.RouteUrl(new { controller = "product", action = "detail" })/@pr.Id/@name.ToAscii()">
+                    <img src="@Url.RouteUrl(new { controller = "Content", action = "img/products/images/" + pr.Image })" class="img-responsive" style="width:350px; " />
+                </a>
+
+                <div class="container-fluid">
+                    <div class="caption bg-color vertical-center text-left">
+                        <div class="big-text fadeInDown-1">
+                            <span class="highlight">@pr.Name</span>
+                        </div>
+
+                        <div class="excerpt fadeInDown-2 hidden-xs">
+
+                            <span class="numeral-init">@pr.PriceP</span>
+
+                        </div>
+                        <div class="button-holder fadeInDown-3">
+                            <a href="/product/detail/@pr.Id" class="btn-lg btn btn-uppercase btn-primary shop-now-button">Mua Ngay</a>
+                        </div>
+                    </div><!-- /.caption -->
+                </div><!-- /.container-fluid -->
+            </div><!-- /.item -->
+        }
+
+
+
+    </div><!-- /.owl-carousel -->
+</div>
+
+<!-- ========================================= SECTION – HERO : END ========================================= -->
+<!-- ============================================== INFO BOXES ============================================== -->
+<div class="info-boxes wow fadeInUp">
+    <div class="info-boxes-inner">
+        <div class="row">
+            <div class="col-md-6 col-sm-4 col-lg-4">
+                <div class="info-box">
+                    <div class="row">
+                        <div class="col-xs-2">
+                            <i class="icon fa fa-dollar"></i>
+                        </div>
+                        <div class="col-xs-10">
+                            <h4 class="info-box-heading green">Đổi mới</h4>
+                        </div>
+                    </div>
+                    <h6 class="text">Đổi mới trong 30 ngày.</h6>
+                </div>
+            </div><!-- .col -->
+
+            <div class="hidden-md col-sm-4 col-lg-4">
+                <div class="info-box">
+                    <div class="row">
+                        <div class="col-xs-2">
+                            <i class="icon fa fa-truck"></i>
+                        </div>
+                        <div class="col-xs-10">
+                            <h4 class="info-box-heading orange">Giao hàng miễn phí</h4>
+                        </div>
+                    </div>
+                    <h6 class="text">miễn phí giao hàng với đơn hàng trên 600.000</h6>
+                </div>
+            </div><!-- .col -->
+
+            <div class="col-md-6 col-sm-4 col-lg-4">
+                <div class="info-box">
+                    <div class="row">
+                        <div class="col-xs-2">
+                            <i class="icon fa fa-gift"></i>
+                        </div>
+                        <div class="col-xs-10">
+                            <h4 class="info-box-heading red">Giảm giá</h4>
+                        </div>
+                    </div>
+                    <h6 class="text">Giảm giá sản phẩm lên đến 20%</h6>
+                </div>
+            </div><!-- .col -->
+        </div><!-- /.row -->
+    </div><!-- /.info-boxes-inner -->
+
+</div><!-- /.info-boxes -->
+<!-- ============================================== INFO BOXES : END ============================================== -->
+<!-- ============================================== PRODUCT CAT============================================== -->
+
+@foreach (var m in Model)
+{
+
+
+
+    var items = m.Products.OrderBy(p => Guid.NewGuid()).Take(10).ToList();
+
+    <section class="section featured-product wow fadeInUp">
+        @{
+            // var Language = System.Threading.Thread.CurrentThread.CurrentCulture.DisplayName;
+
+            var Language = "English";
+            switch (Language)
+            {
+                case "English":
+                    <h3 class="section-title">@m.Name</h3>
+                    break;
+                default:
+                    <h3 class="section-title">@m.NameVN</h3>
+                    break;
+
+            }
+        }
+
+
+        <div class="owl-carousel home-owl-carousel custom-carousel owl-theme outer-top-xs">
+
+            @foreach (var p in items)
+            {
+
+                <div class="item item-carousel">
+                    <div class="products">
+
+                        <div class="product">
+
+                            <div class="product-image">
+
+                                <div class="image">
+                                    <a href="@Url.RouteUrl(new { controller = "Product", action = "Detail" })/@p.Id/@p.Name.ToAscii() ">
+
+                                        <img src="~/Content/img/products/images/@p.Image" alt="" style="height:200px" class="img-responsive" id="@p.Id">
+                                    </a>
+
+
+                                </div><!-- /.image -->
+                                @if (p.Special == true)
+                                {
+                                    <div class="tag hot"><span>@Global["Hot"]</span></div>
+                                }
+
+                                @if (p.Discount > 0)
+                                {
+                                    <div class="tag sale"><span>@Global["Sale"]</span></div>
+
+                                }
+                                @if (p.Latest == true)
+                                {
+                                    <div class="tag new"><span>@Global["New"]</span></div>
+
+                                }
+
+
+                            </div><!-- /.product-image -->
+
+
+                            <div class="product-info text-left">
+                                <h3 class="name"><a href="@Url.RouteUrl(new { controller = "Product", action = "Detail" })/@p.Id/@p.Name.ToAscii() ">@p.Name</a></h3>
+                                <div class="rating rateit-small hidden"></div>
+                                <div class="description"></div>
+
+                                <div class="product-price">
+                                    <span class="price numeral-init">
+                                        @Html.Raw(p.PriceP * (1 - p.Discount))
+                                    </span>
+                                    @if (p.Discount > 0)
+                                    {
+                                        <span class="price-before-discount numeral-init">@p.PriceP</span>
+
+                                    }
+
+                                </div><!-- /.product-price -->
+
+                            </div><!-- /.product-info -->
+                            <div class="cart clearfix animate-effect">
+                                <div class="action">
+                                    <ul class="list-unstyled">
+                                        <li class="add-cart-button btn-group">
+                                            <button class="btn btn-primary icon addProduct" data-id="@p.Id" type="button">
+                                                <i class="fa fa-shopping-cart"></i>
+                                            </button>
+
+                                            <button class="btn btn-primary addProduct" type="button"
+                                                    data-urladdcart="@Url.RouteUrl(new {controller="Cart",action="Add" })"
+                                                    data-id="@p.Id" data-name="@p.Name" data-url="@p.Image" data-urlpartialcart="@Url.RouteUrl(new { controller = "Cart", action = "PartialCart" })">
+                                                Thêm vào giỏ
+                                            </button>
+
+                                        </li>
+
+                                        <li class="lnk wishlist hidden">
+                                            <a class="add-to-cart" href="#" title="Wishlist">
+                                                <i class="icon fa fa-heart"></i>
+                                            </a>
+                                        </li>
+
+                                        <li class="lnk hidden">
+                                            <a class="add-to-cart" href="#" title="Compare">
+                                                <i class="fa fa-retweet"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div><!-- /.action -->
+                            </div><!-- /.cart -->
+                        </div><!-- /.product -->
+
+                    </div><!-- /.products -->
+                </div><!-- /.item -->
+
+
+
+
+
+            }
+
+
+        </div><!-- /.home-owl-carousel -->
+
+
+
+    </section><!-- /.section -->
+    <!-- ============================================== FEATURED PRODUCTS : END ============================================== -->
+
+}
+
+
+

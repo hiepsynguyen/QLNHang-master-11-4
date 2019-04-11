@@ -1,0 +1,78 @@
+@model IEnumerable<WebApplication8.Models.WebShop.Customer>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Customers</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-lg btn-success">Create New <i class="fa fa-plus icon-white"></i></a>
+</p>
+
+@using (Html.BeginForm())
+{
+    <table class="table" id="domainTable">
+        <thead>
+            <tr>
+                <th>
+                    <input type="checkbox" id="check-all-header" />
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Email)
+                </th>
+
+                <th>
+                    @Html.DisplayNameFor(model => model.Address)
+                </th>
+
+                <th>
+                    Full Name
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Activated)
+                </th>
+
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td><input type="checkbox" name="ids" value="@item.Id" /></td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Email)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Address)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Fullname)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Activated)
+                    </td>
+
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <button class="btn btn-lg btn-danger" type="button" onclick="form.action = '/Admin/Customers/DeleteSelected'" data-toggle="modal" data-target="#confirmDelete" data-title="Delete item item" data-message="Are you sure you want to delete selected item ?">
+        Delete Selected
+        <i class="glyphicon glyphicon-trash"></i>
+    </button>
+}
+@{@await Html.PartialAsync("_ModelPopup"); }
+@section scripts{
+    <script src="/Scripts/LoadDataTable.js"></script>
+    <script src="/Scripts/ModelPopup.js"></script>
+    <script src="/Scripts/CheckAll.js"></script>
+}

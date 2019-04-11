@@ -1,0 +1,115 @@
+﻿@model DAL.QLNHangData.Tblroster
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Tblroster</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ShiNm)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ShiNm)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.MaxHr)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.MaxHr)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.MinHr)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.MinHr)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ConH1)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ConH1)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.AddH1)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.AddH1)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ConH2)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ConH2)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.AddH2)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.AddH2)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.BltNm)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.BltNm)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.BltDt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.BltDt)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.LstNm)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.LstNm)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.LstDt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.LstDt)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Tim02)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Tim02)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.OnnTm)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.OnnTm)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.OffTm)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.OffTm)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.NigSh)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NigSh)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.OnnOt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.OnnOt)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.ShiId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -1,0 +1,137 @@
+﻿@model IEnumerable<WebApplication8.Models.WebShop.Product>
+@using WebApplication8.Models.ShoppingCart;
+@{
+    ViewBag.Title = "Giỏ hàng";
+}
+
+ @{ @await Html.PartialAsync("_Alerts");}
+    <table class="table table-striped table-bordered">
+        <tr>
+            <th>Id</th>
+            <th>Tên</th>
+            <th>Giá</th>
+            <th>Discount</th>
+            <th>Sô lượng</th>
+            <th>Giá trị</th>
+            <th></th>
+        </tr>
+        @foreach (var p in Model)
+        {
+            <tr>
+                <td>@p.Id</td>
+                <td>@p.Name</td>
+                <td><span class="numeral-init">@p.PriceP</span></td>
+                <td>@p.Discount.ToString().Replace(",",".")</td>
+                <td><input class="quantity" value="@p.Quantity" data-id="@p.Id" size="3" id="@p.Id-ss" /></td>
+                <td id="@p.Id"><span class="numeral-init">@(p.PriceP * p.Quantity * (1 - p.Discount))</span></td>
+                <td>
+                    <img class="remove-from-cart" data-urlremovecart="@Url.RouteUrl(new {controller="Cart",action="Remove" })" style="cursor:pointer" data-id="@p.Id" src="/Content/img/icons/Trash.png" />
+                </td>
+            </tr>
+        }
+        <tr>
+            <th colspan="5" style="text-align:right">Total:</th>
+            <th class="nn-cart-total"><span class="numeral-init">@ShoppingCart.Total</span></th>
+            <th></th>
+        </tr>
+    </table>
+    <form action="~/Cart/Clear" method="post">
+        <button class="btn btn-danger">
+            
+            <i class="fa fa-trash"></i>
+            Xoá giỏ hàng
+        </button>
+        <a href="@Url.RouteUrl(new {controller="Product",action="ProductList" })" class="btn btn-primary">
+            <i class="fa fa-cart-plus"></i>
+            Mua thêm
+        </a>
+        <a href="~/Order/Checkout" class="btn btn-default">
+            <i class="fa fa-cart-arrow-down"></i>
+            Checkout
+        </a>
+       
+    </form>
+
+
+
+@*@section scripts{
+    <script>
+        $(document).delegate("#sp-search-field", "keyup", function () {
+           
+            search = $("#sp-search-field").val();
+            $.ajax({
+                type: "post",
+                url: "/Home/Search",
+                data: { keywork: search },
+                success: function (res) {
+                    //$(".homebanner-holder").html("");
+                    $(".homebanner-holder").html(res).replaceAll();
+                }
+            });
+         
+
+        });
+
+       
+    </script>
+}*@
+    @section scripts{
+        <script>
+            $(function () {
+                // Xóa khỏi giỏ
+                //$(".remove-from-cart").click(function ()
+                
+               /* $(document).delegate(".remove-from-cart", "click", function () {
+                    pid = $(this).attr("data-id");
+                    tr = $(this).parents("tr");// tim <tr> chua <img> bi click
+                    $.ajax({
+                        url: "/Cart/Remove",
+                        data: { id: pid },
+                        success: function (response) {
+                            $("#nn-cart-count").html(response.Count);
+                            $(".nn-cart-total").html(response.Total);
+                            $("#cart-item").load("/Cart/PartialCart");
+                            tr.hide(500);
+                        }
+                    });
+                });*/
+                // Cập nhật số lượng
+
+                $(document).delegate(".quantity, .spquantity", "blur", function () {
+                    pid = $(this).attr("data-id");
+                    qty = $(this).val();
+                    var regex = /[0-9]+/;
+                    if (!regex.test(qty)) {
+                        alert("Nhap số");
+                    }
+                    if (qty < 1) {
+                        $(this).val("1");
+                        qty = 1;    
+                    }
+                   // console.log("la so");
+                    //$("#"+pid+"-ss").val(qty);
+                    $.ajax({
+                        url: "/Cart/Update",
+                        data: { id: pid, quantity: qty },
+                        success: function (response) {
+                            $("#nn-cart-count").html(response.Count);
+                            $(".nn-cart-total").html(numeral(response.Total));
+                            $("#" + pid).html("$" + numeral(response.Amount));
+                            $("#" + pid + "-ss").attr("value", response.quantity);
+                            
+                            //$("#" + pid).html("$" + response.quantity);
+                           
+                            $("#cart-item").load("/Cart/PartialCart");
+                            location.reload();
+
+                        }
+                    });
+                });
+                
+            });
+        </script>
+   
+@*<script src="~/Scripts/FlyingCart.js"></script>
+*@
+
+    }

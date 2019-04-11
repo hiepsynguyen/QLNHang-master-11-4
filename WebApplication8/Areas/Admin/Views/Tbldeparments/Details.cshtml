@@ -1,0 +1,79 @@
+﻿@model DAL.QLNHangData.Tbldeparment
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Tbldeparment</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DepNm)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DepNm)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DepN1)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DepN1)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DepHg)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DepHg)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ColNo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ColNo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.PeoTt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PeoTt)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.SegHr)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SegHr)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.RouMn)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.RouMn)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.RemDr)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.RemDr)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.SeqNo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SeqNo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DirDp)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DirDp)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.DepId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

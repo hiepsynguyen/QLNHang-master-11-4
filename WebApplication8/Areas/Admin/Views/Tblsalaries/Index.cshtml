@@ -1,0 +1,109 @@
+﻿@model WebApplication8.Areas.Admin.Models.BasicSalaryViewModel.EmployeeSearchViewModel
+@using WebApplication8.Areas.Admin.Models.CommonViewModel
+@{
+    ViewData["Title"] = "Nhập lương";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+    var list_result = (List<BasicEmployeeViewModel>)ViewData["list_result"];
+}
+
+<div class="row col-md-12">
+<div class="col-md-10">
+    <form action="" method="get">
+        <div class="col-md-3">
+            <div class="form-group">
+                <input asp-for="EmpId" class="form-control" placeholder="Nhập mã nhân viên" />
+            </div>
+        </div>
+        @*<div class="col-md-8">
+            <div class="col-md-6"><div class="form-group"><input asp-for="DateRange.StrDate" class="form-control" placeholder="Ngày bắt đầu" /></div></div>
+            <div class="col-md-6"><div class="form-group"><input asp-for="DateRange.EndDate" class="form-control" placeholder="Ngày kết thúc" /></div></div>
+        </div>*@
+        <div class="col-md-1">
+            <button class="btn btn-flat btn-primary btn-sm"><i class="fa fa-search"></i></button>
+        </div>
+    </form>
+</div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>
+                        Mã nhân viên
+                    </th>
+                    <th>
+                        Tên nhân viên
+                    </th>
+                    <th>
+                        Bộ phận
+                    </th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    foreach (var s in list_result)
+                    {
+                        <tr class="emp-details" data-id="@s.EmpId">
+                            <td>@s.EmpId</td>
+                            <td>@s.EmpNm</td>
+                            <td>@s.DepNm</td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<p>
+    <a id="url-create-basic-salary" href="#"
+       data-burl="@Url.RouteUrl(new { controller= "Tblsalaries", action="CreateEmpId", area="admin"})?EmpId={0}"
+       target="_blank" class="btn btn-success btn-flat btn-sm"><i class="fa fa-plus"></i></a>
+</p>
+<div class="row">
+    <div class="col-md-12">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        Ngày Áp dụng
+                    </th>
+                    <th>
+                        Lương cơ bản
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="body-salary"></tbody>
+        </table>
+    </div>
+</div>
+@section scripts{
+    <script>
+    $(document).ready(function () {
+        //alert('abc');
+        $('.emp-details').off().on('click', function (e) {
+            $('.emp-details').removeClass('bg-blue-selected');
+            $(this).addClass('bg-blue-selected');
+            var id = $(this).data('id');
+            var href_a = $('#url-create-basic-salary').data('burl');
+            $('#url-create-basic-salary').attr('href', href_a.replace('{0}', id));
+            $.ajax({
+                url: '@Url.RouteUrl(new {controller= "Tblsalaries", action= "GetBasicSalaryByEmpId", area="admin" })',
+                data: {
+                    EmpId: id
+                },
+                type: 'GET',
+                success: function (response) {
+                    $('#body-salary').html(response);
+                },
+                error: function (xhr) {
+
+                }
+            });
+        });
+    });
+    </script>
+}

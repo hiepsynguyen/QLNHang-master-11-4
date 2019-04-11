@@ -1,0 +1,145 @@
+﻿@using Microsoft.Extensions.Options
+@using WebApplication8.Models.StripePayment
+@model WebApplication8.Models.WebShop.Order
+@inject IOptions<WebApplication8.Models.StripePayment.StripeSettings> Stripe
+@{
+    ViewBag.Title = "Checkout";
+}
+@await Html.PartialAsync("_Alerts")
+<h4>Thông tin Đơn Hàng</h4>
+<hr />
+<div class="form-horizontal">
+
+    <div class="form-group">
+        <label class="control-label col-md-2">Tên Khách Hàng</label>
+        <div class="col-md-10">
+            @Model.Customer.Fullname
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-2">Ngày tạo Đơn Hàng</label>
+        <div class="col-md-10">
+            @Html.FormatValue(Model.OrderDate, "{0:dd-MM-yyyy}")
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-2">Ngày nhận</label>
+        <div class="col-md-10">
+            @Html.FormatValue(Model.RequireDate, "{0:dd-MM-yyyy}")
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-2">Email Người nhận</label>
+        <div class="col-md-10">
+           @Model.EmailContact
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-2">Người nhận</label>
+        <div class="col-md-10">
+            @Model.Receiver
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-2">Địa chỉ</label>
+        <div class="col-md-10">
+            @Model.Address
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-2">Tổng tiền</label>
+        <div class="col-md-10">
+            <span class="numeral-init">@Model.Amount</span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-2">Mô tả</label>
+        <div class="col-md-10">
+            @Model.Description
+        </div>
+    </div>
+</div>
+<hr />
+<h4>Chi tiết đơn hàng</h4>
+<hr />
+<table class="table table-hover table-striped">
+    <tr>
+        <th>Mã sản phẩm</th>
+        <th>Tên Sản phẩm</th>
+        <th>Giá</th>
+        <th>Giảm giá</th>
+        <th>Số lượng</th>
+        <th>Tổng</th>
+    </tr>
+    @foreach (var d in Model.OrderDetails)
+    {
+        <tr>
+            <td>@d.ProductId</td>
+            <td>@d.Product.Name</td>
+            <td><span class="numeral-init">@d.UnitPrice</span></td>
+            <td>@d.Discount.ToString().Replace(",", ".")</td>
+            <td>@d.Quantity</td>
+            <td><span class="numeral-init">@(d.UnitPrice * d.Quantity * (1 - d.Discount))</span></td>
+        </tr>
+    }
+    <tr>
+        <th colspan="5" style="text-align:right">Tổng cộng:</th>
+        <th class="nn-cart-total"><span class="numeral-init">@((double)ViewBag.Total)</span></th>
+    </tr>
+</table>
+@{ 
+    var total = ViewBag.Total + "00";
+}
+@if (Model.Status == 0)
+{
+
+    <div>
+        <script src="https://checkout.stripe.com/checkout.js"></script>
+        <button id="customButton" class="btn btn-success">Purchase</button>
+       
+        <button id="payarrive" class="btn btn-default" onclick="window.location='@Url.RouteUrl(new {controller="Order",action= "SendEmailConfirm", emailreceived=Model.EmailContact, idorder=Model.Id })'">Pay on receiced</button>
+       
+        <form id="form-pucharse" action="/Order/Charge" method="post">
+            <input type="hidden" name="orderid" id="orderid" value="@Model.Id" />
+            <input type="hidden" name="stripeToken" id="stripeToken" value="" />
+            <input type="hidden" name="amount" id="amount" value="@(Double.Parse(total)/ExValue.VND)" />
+            <input type="hidden" name="key_publish" id="key_publish" value="@Stripe.Value.PublishableKey" />
+        </form>
+
+        <script>
+        var key = document.getElementById('key_publish').value;
+        var handler = StripeCheckout.configure({
+  key: key,
+  image: 'https://stripe.com/img/documentation/checkout/marketplace.png',
+  locale: 'auto',
+  token: function (token) {
+      console.log(token);
+      document.getElementById('stripeToken').value = token.id;
+      document.getElementById('form-pucharse').submit();
+  }
+});
+
+document.getElementById('customButton').addEventListener('click', function(e) {
+    var amount=document.getElementById('amount').value;
+  // Open Checkout with further options:
+  handler.open({
+    name: 'ShopOnline',
+    description: 'Pucharse',
+    //zipCode: true,
+    amount: amount
+  });
+  e.preventDefault();
+});
+
+// Close Checkout on page navigation:
+window.addEventListener('popstate', function() {
+  handler.close();
+});
+        </script>
+    </div>
+}

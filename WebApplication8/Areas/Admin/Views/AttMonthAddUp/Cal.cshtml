@@ -1,0 +1,94 @@
+﻿@model WebApplication8.Areas.Admin.Models.MonthAttendanceViewModels.MonthlyAttendanceCalViewModel
+@{
+    ViewData["Title"] = "Tổng kết tháng chấm công";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+    var _str_D = DateTime.ParseExact(DateTime.Now.ToString("yyyy/MM") + "/01", "yyyy/MM/dd", null);
+    var _end_D = _str_D.AddMonths(1).AddDays(-1);
+
+}
+<div class="col-md-12">
+    <form id="frm-cal-att" action="" method="post" onsubmit="return calAtt();">
+        @Html.AntiForgeryToken()
+        <div class="row">
+            <div class="col-md-6 col-sm-6">
+                <div class="form-group">
+                    <label>Mã nhân viên:</label>
+                    <input asp-for="crt1.EMP_ID" required type="text" class="form-control" value="" />
+                    <input asp-for="crt1.R_Par" type="hidden" class="form-control" value="true" />
+                    <input asp-for="crt1.R_WID" type="hidden" class="form-control" value="true" />
+                    <input asp-for="crt1.Text_Fr" type="hidden" class="form-control" value="" />
+                    <input asp-for="crt1.Text_To" type="hidden" class="form-control" value="" />
+                    <input type="hidden" asp-for="dt1" value="@_str_D.ToString("yyyy/MM/dd")" />
+                    <input type="hidden" asp-for="dt2" value="@_end_D.ToString("yyyy/MM/dd")" />
+
+
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <div class="form-group">
+                    <label>Tháng:</label>
+                    <input asp-for="dt3" required type="text" placeholder="YYYY/MM" class="form-control" value="" readonly />
+                </div>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-md-3 col-sm-3 col-md-offset-9 col-sm-offset-9">
+                <div class="form-group">
+                    <button class="btn btn-flat btn-sm btn-success" style="float:right">Tính</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+@section scripts{ 
+<script>
+        $(document).ready(function () {
+            onChangeEMP_ID();
+            $('#dt3').daterangepicker({
+                singleDatePicker: true,
+                //timePicker: true,
+                //alwaysShowCalendars: false,
+                //timePicker24Hour: true,
+                //parentEl: "#range-date-dt",
+                locale: {
+                    format: 'YYYY/MM'
+                }
+            }, function (start, end, label) {
+                var _strD = moment(start.format('YYYY/MM') + "/01", "YYYY/MM/DD");
+                $('#dt1').val(_strD.format("YYYY/MM/DD"));
+                $('#dt2').val(_strD.add(1, 'months').add(-1, 'days').format('YYYY/MM/DD'));
+                console.log(typeof(start));
+                //console.log("A new date selection was made: " + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD'));
+
+            });
+        });
+        function calAtt() {
+            $('#processingModal').modal({ backdrop: 'static' });
+            setTimeout(function () {
+                $.post('@Url.RouteUrl(new { controller= "AttMonthAddUp", action= "CalPost", area="admin"})',
+                $('#frm-cal-att').serialize(),
+                function (response) {
+                    if (typeof (response) === "string" && response !== "") {
+                        alert(response);
+                    }
+                    if (response === "") {
+                        alert("Tính thành công....");
+                        $('#processingModal').modal('hide');
+                    }
+
+                });
+            }, 200);
+
+            return false;
+        }
+        function onChangeEMP_ID() {
+            $('#crt1_EMP_ID').on('change', function () {
+                $('#crt1_Text_Fr').val($(this).val());
+                $('#crt1_Text_To').val($(this).val());
+            });
+        }
+</script>
+}
+

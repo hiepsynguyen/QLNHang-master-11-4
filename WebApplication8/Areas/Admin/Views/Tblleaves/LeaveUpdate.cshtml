@@ -1,0 +1,232 @@
+﻿@model WebApplication8.Areas.Admin.Models.LeaveViewModel.LeaveOpViewModel
+@{
+    ViewData["Title"] = "Sửa phép";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<style>
+    #range-datetime-dt .calendar-table {
+        display: none;
+    }
+</style>
+<div class="col-md-12">
+    <form id="frm-insert-leave" action="" method="post" onsubmit="return editLeave();">
+        <input asp-for="EmpId" type="hidden" />
+        <input asp-for="UserLogin" type="hidden" value="@User.Identity.Name" />
+        <input asp-for="InhDt" type="hidden" value="@(((DateTime)ViewData["emp_inh_dt"]).ToString("MM/dd/yyyy"))" />
+        <input asp-for="SeqNo" type="hidden"/>
+        <div class="row">
+            <div class="col-md-6 col-sm-6">
+                <div class="form-group">
+                    <label>Mã nhân viên:</label>
+                    <input type="text" class="form-control" value="@Model.EmpId" readonly />
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <div class="form-group">
+                    <label>Tên nhân viên:</label>
+                    <input type="text" class="form-control" value="@ViewData["emp_nm"]" readonly />
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-sm-6">
+                <div class="form-group">
+                    <label for="reason">Lý do:</label>
+                    <select class="form-control" required asp-for="ucLeave.TYP_LEA"
+                            asp-items="@(new SelectList((List<DAL.QLNHangData.Tbltypeleave>)ViewData["l_type_leave"],"LeaId","LeaNm"))">
+                        <option value="">----</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <div class="form-group">
+                    <label>Chọn ngày</label>
+                    <input type="text" value="@Model.ucLeave.STR_DT.ToString("MM/dd/yyyy") - @Model.ucLeave.END_DT.ToString("MM/dd/yyyy")" id="date-range" class="form-control" />
+                    <input asp-for="ucLeave.STR_DT" value="@Model.ucLeave.STR_DT.ToString("MM/dd/yyyy")" type="hidden" class="form-control">
+                    <input asp-for="ucLeave.END_DT" value="@Model.ucLeave.END_DT.ToString("MM/dd/yyyy")" type="hidden" class="form-control">
+                    <input asp-for="ucLeave.STR_DT_O" value="@Model.ucLeave.STR_DT_O.ToString("MM/dd/yyyy")" type="hidden" class="form-control">
+                    <input asp-for="ucLeave.END_DT_O" value="@Model.ucLeave.END_DT_O.ToString("MM/dd/yyyy")" type="hidden" class="form-control">
+
+                </div>
+                @*<div class="col-md-6 col-sm-6">
+                        <div class="form-group">
+                            <label>Từ ngày</label>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="form-group">
+                            <label>đến </label>
+                            <input asp-for="ucLeave.END_DT" type="date" class="form-control">
+                        </div>
+                    </div>*@
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-sm-6">
+                <div class="form-group">
+                    <label>Ghi chú</label>
+                    <textarea asp-for="ucLeave.NOT" class="form-control"></textarea>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <div class="form-group">
+                    <label>Chọn giờ</label>
+                    <input type="text" value="" id="datetime-range" class="form-control" />
+                    <input asp-for="ucLeave.STR_TM" type="hidden" class="form-control">
+                    <input asp-for="ucLeave.END_TM" type="hidden" class="form-control">
+                </div>
+                @*<div class="form-group">
+                        <label>Bắt đầu</label>
+                        <input asp-for="ucLeave.STR_TM" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label>Kết thúc</label>
+                        <input asp-for="ucLeave.END_TM" class="form-control" />
+                    </div>*@
+            </div>
+        </div>
+        <div class="row">
+            <label class="col-md-2"><input type="checkbox" asp-for="ucLeave.FULL_DT_BT">&nbsp;&nbsp;Full</label>
+            <div class="col-md-4 col-sm-4">
+                <div class="form-group">
+                    <label for="reason">Ca: </label>
+                    <select class="form-control" required asp-for="ucLeave.SHI_ID"
+                            asp-items="@(new SelectList((List<DAL.QLNHangData.Tblroster>)ViewData["l_type_shift"],"ShiId","ShiNm"))">
+                        <option value="">----</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <div class="col-md-6 col-sm-6">
+                    <div class="form-group">
+                        <label for="reason">Total Hours: </label>
+                        <input asp-for="ucLeave.TOTAL_HOURS" class="form-control" readonly />
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="form-group">
+                        <label for="reason">Total days: </label>
+                        <input asp-for="ucLeave.TOTAL_DAYS" class="form-control" readonly />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <button class="btn btn-warning btn-flat btn-sm" id="btn-add-leave">Sửa</button>
+        </div>
+    </form>
+</div>
+<div id="range-datetime-dt" style="position:relative">
+
+</div>
+@section scripts{
+    <script>
+        var str_dt;
+        var end_dt;
+        $(document).ready(function () {
+
+            onCheckFullDayChange();
+            //$('#range-date-dt .calendar-table').hide();
+            $('#date-range').daterangepicker({
+                //timePicker: true,
+                //alwaysShowCalendars: false,
+                //timePicker24Hour: true,
+                //parentEl: "#range-date-dt",
+            }, function (start, end, label) {
+                str_dt = start;
+                end_dt = end;
+                $('#ucLeave_STR_DT').val(start.format('YYYY-MM-DD'));
+                $('#ucLeave_END_DT').val(end.format('YYYY-MM-DD'));
+                if (start.format('YYYY-MM-DD') !== end.format('YYYY-MM-DD')) {
+                    $('#ucLeave_FULL_DT_BT').prop('checked', true);
+                    $('#ucLeave_FULL_DT_BT').change();
+                }
+
+                //console.log("A new date selection was made: " + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD'));
+                onChangeDate();
+            });
+            $('#datetime-range').daterangepicker({
+                //format: 'HH:mm',
+                timePicker: true,
+                timePicker24Hour: true,
+                alwaysShowCalendars: false,
+                parentEl: "#range-datetime-dt",
+                locale: {
+                    format: 'HH:mm'
+                }
+            }, function (start, end, label) {
+                $('#ucLeave_STR_TM').val(start.format('HH:mm'));
+                $('#ucLeave_END_TM').val(end.format('HH:mm'));
+                onChangeTime();
+                //console.log("A new date selection was made: " + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD'));
+            });
+            if(("@Model.ucLeave.FULL_DT_BT").toLowerCase() === "true") {
+                $('#ucLeave_FULL_DT_BT').prop('checked', true);
+                $('#ucLeave_FULL_DT_BT').change();
+            }
+        });
+
+        function onCheckFullDayChange() {
+            $('#ucLeave_FULL_DT_BT').off().on('change', function (e) {
+                if ($(this).prop('checked') === true) {
+                    $('#datetime-range').prop('disabled', true);
+                    $('#ucLeave_SHI_ID').prop('disabled', true);
+                    $('#date-range').prop('disabled', false);
+                }
+                else {
+                    $('#datetime-range').prop('disabled', false);
+                    $('#ucLeave_SHI_ID').prop('disabled', false);
+                    //$('#date-range').val($('#ucLeave_STR_DT').val() + ' - ' + $('#ucLeave_STR_DT').val());
+                    $('#date-range').data('daterangepicker').setStartDate(str_dt);
+                    $('#date-range').data('daterangepicker').setEndDate(str_dt);
+                    $('#date-range').data('daterangepicker').setEndDate(str_dt);
+                    $('#date-range').prop('disabled', true);
+                }
+            });
+        }
+
+        function onChangeDate() {
+            $.post('@Url.RouteUrl(new { controller= "Tblleaves", action= "LeaveChangeDate", area="admin"})', $('#frm-insert-leave').serialize(),
+                function (response) {
+                    console.log(response);
+                    if (typeof (response) == "object") {
+                        $('#ucLeave_TOTAL_HOURS').val(response.txt_hr);
+                        $('#ucLeave_TOTAL_DAYS').val(response.txt_day);
+                    }
+                });
+        }
+
+        function onChangeShift() {
+
+        }
+
+        function onChangeTime() {
+            $.post('@Url.RouteUrl(new { controller= "Tblleaves", action= "LeaveChangeTime", area="admin"})', $('#frm-insert-leave').serialize(),
+                function (response) {
+                    console.log(response);
+                    if (typeof (response) == "object") {
+                        $('#ucLeave_TOTAL_HOURS').val(response.txt_hr);
+                        $('#ucLeave_TOTAL_DAYS').val(response.txt_day);
+                    }
+                });
+        }
+
+    function editLeave() {
+        $.post('@Url.RouteUrl(new { controller= "Tblleaves", action= "LeaveUpdate", area="admin"})', $('#frm-insert-leave').serialize(),
+                function (response) {
+                    //console.log(response);
+                    if (typeof (response) == "object") {
+                        if (response.err === null) {
+                            alert("Sửa thành công");
+                        }
+                        location.reload();
+                        //$('#ucLeave_TOTAL_HOURS').val(response.txt_hr);
+                        //$('#ucLeave_TOTAL_DAYS').val(response.txt_day);
+                    }
+                });
+        return false;
+    }
+    </script>
+}
+

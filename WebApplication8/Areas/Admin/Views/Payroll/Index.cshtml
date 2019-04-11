@@ -1,0 +1,90 @@
+﻿@using WebApplication8.Areas.Admin.Models.PayrollViewModel
+@model PayrollSearchViewModel
+@{
+    ViewData["Title"] = "Chi tiết lương nhân viên";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+    var list_details = (List<DetailsPayrollViewModel>)ViewData["list_details"];
+}
+<style>
+    #range-datetime-dt .calendar-table {
+        display: none;
+    }
+</style>
+<div class="row col-md-12">
+    <div class="col-md-10">
+        <form action="" method="get">
+            <div class="col-md-3">
+                <div class="form-group">
+                    <input asp-for="EmpId" class="form-control" placeholder="Nhập mã nhân viên" />
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="col-md-12"><div class="form-group"><input asp-for="DateRange.StrDate" class="form-control" type="text" value="@Model.DateRange.StrDate.ToString("yyyy/MM")" placeholder="Tháng" /></div></div>
+            </div>
+            <div class="col-md-1">
+                <button class="btn btn-flat btn-primary btn-sm"><i class="fa fa-search"></i></button>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="col-md-12" style="margin-top:3px">
+    <div class="table-responsive">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Mã nhân viên</th>
+                    <th>Tên Nhân viên</th>
+                    <th>Năm tháng</th>
+                    <th>Bộ phận</th>
+                    <th>Ngày công</th>
+                    <th>Lương căn bản</th>
+                    <th>Lương thực lãnh</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    foreach (var d in list_details)
+                    {
+                        <tr class="payroll-details" data-id="@d.dpayroll.EmpId">
+                            <td>@d.dpayroll.EmpId</td>
+                            <td>@d.EmpNm</td>
+                            <td>@d.dpayroll.YyyMm</td>
+                            <td>@d.DepNm</td>
+                            <td>@(d.dpayroll.CaNgay + d.dpayroll.CaDem)</td>
+                            <td>@String.Format("{0:n0}", d.dpayroll.Lcb)</td>
+                            <td>@(String.Format("{0:n0}", d.dpayroll.ThucLanh))</td>
+                            <td></td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+
+</div>
+@section scripts{
+    <script>
+        $(document).ready(function () {
+            //$('#DateRange_StrDate').date
+            $('#DateRange_StrDate').daterangepicker({
+                singleDatePicker: true,
+                //timePicker: true,
+                //alwaysShowCalendars: false,
+                //timePicker24Hour: true,
+                //parentEl: "#range-date-dt",
+                locale: {
+                    format: 'YYYY/MM'
+                }
+            }, function (start, end, label) {
+                //var _strD = moment(start.format('YYYY/MM') + "/01", "YYYY/MM/DD");
+                //$('#dt1').val(_strD.format("YYYY/MM/DD"));
+                //$('#dt2').val(_strD.add(1, 'months').add(-1, 'days').format('YYYY/MM/DD'));
+                //console.log(typeof (start));
+                //console.log("A new date selection was made: " + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD'));
+
+            });
+        });
+    </script>
+}
+

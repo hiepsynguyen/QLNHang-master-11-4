@@ -1,0 +1,168 @@
+﻿@model Sakura.AspNetCore.IPagedList<WebApplication8.Models.WebShop.Product>
+
+@{
+    ViewBag.Title = "Product";
+}
+
+
+
+<!-- ============================================== FEATURED PRODUCTS ============================================== -->
+<section class="section featured-product wow fadeInUp">
+    <h3 class="section-title">@Global["ProductList"]</h3>
+
+    <div id="contentPagerList" class="pull-right" style="padding-right:40px;">
+      @*  @Html.PagedListPager(Model, page => Url.Action("ListBySpecial/" + ViewBag.Id + "/" + page))*@
+        Trang @(Model.TotalPage < Model.PageSize ? 1 : Model.PageSize) of @Model.TotalPage
+    </div>
+
+    <div class="clearfix"></div>
+    @foreach (var m in Model)
+    {
+
+        var tukhoa = ViewBag.tukhoa;
+        <div class="col-sm-3 col-xs-6" style="float:left;height:270px">
+
+            <div class="product">
+                <div class="product-image">
+                    <div class="image">
+                        <a href="~/Product/Detail/@m.Id/@m.Name"><img src="~/Content/img/products/images/@m.Image"  alt="" class="img-responsive" style="height:150px;" id="@m.Id"></a>
+
+
+                        @*<img src="~/assets/images/products/3.jpg" />*@
+                    </div><!-- /.image -->
+                    @if (m.Special == true)
+                    {
+                        <div class="tag hot"><span>hot</span></div>
+                    }
+
+                    @if (m.Discount > 0)
+                    {
+                        <div class="tag sale"><span>sale</span></div>
+
+                    }
+                    @if (m.Latest == true)
+                    {
+                        <div class="tag new"><span>new</span></div>
+
+                    }
+                </div><!-- /.product-image -->
+
+
+                <div class="product-info text-left">
+                    <h3 class="name">
+                        <a href="~/Product/Detail/@m.Id">
+                            @if (tukhoa != null)
+                            {
+                                try
+                                {
+                                    @*@Html.Raw(@m.Name.Replace((string)tukhoa, "<span class='highlighted'>" + (string)tukhoa + "</span>"))*@
+                                    @*@Html.Raw(Xstring.HighlightKeywords(@m.Name, tukhoa));*@
+                                    @Html.Raw(@m.Name);
+
+                                }
+                                catch
+                                {
+                                    @m.Name;
+                                }
+                            }
+                            else
+                            {
+                                @m.Name;
+                            }
+                        </a>
+
+                    </h3>
+
+
+
+                 
+                    <div class="description"></div>
+
+                    <div class="product-price" style="margin-top:5px">
+                        <span class="price numeral-init">
+                            @Html.Raw(m.PriceP * (1 - m.Discount))
+                        </span>
+                        @if (m.Discount > 0)
+                        {
+                            <span class="price-before-discount numeral-init" style="font-size:11px">@m.PriceP</span>
+                        }
+                        
+                    </div><!-- /.product-price -->
+
+                </div><!-- /.product-info -->
+                <div class="cart clearfix animate-effect">
+                    <div class="action">
+                        <ul class="list-unstyled">
+                            <li class="add-cart-button btn-group">
+                                <button class="btn btn-primary icon addProduct" style="padding:4px 8px" type="button" data-id="@m.Id">
+                                    <i class="fa fa-shopping-cart"></i>
+                                </button>
+                                <button class="btn btn-primary addProduct hidden" type="button"  data-id="@m.Id">Thêm vào giỏ</button>
+                                <button class="btn btn-primary addProduct" type="button" style="padding:4px 8px"
+                                        data-urladdcart="@Url.RouteUrl(new {controller="Cart",action="Add" })"
+                                        data-id="@m.Id" data-name="@m.Name" data-url="@m.Image" data-urlpartialcart="@Url.RouteUrl(new { controller = "Cart", action = "PartialCart" })">
+                                    Thêm vào giỏ
+                                </button>
+                            </li>
+
+                          
+                        </ul>
+                    </div><!-- /.action -->
+                </div><!-- /.cart -->
+            </div><!-- /.product -->
+
+        </div><!-- /.products -->
+
+
+    }
+    <div class="clearfix"></div></br>
+
+    <div id="contentPagerListFooter" class="pull-left">
+      @*  @Html.PagedListPager(Model, page => Url.Action("ListBySpecial/" + ViewBag.Id + "/" + page))*@
+        <div class="btn-group">
+            @for (int i = 1; i <= Model.TotalPage; i++)
+            {
+                @Html.ActionLink(i.ToString(), "ListBySpecial", new { page = i, Id = ViewBag.Id }, new { @class = "btn btn-primary" } )
+            }
+        </div>
+       
+    </div>
+
+
+
+
+
+
+
+
+</section><!-- /.section -->
+
+
+
+@section scripts{
+
+
+    <script>
+
+        $(document).ready(function () {
+            $(document).on("click", "#contentPagerList a, #contentPagerListFooter a", function () {
+              
+                $.ajax({
+                    url: $(this).attr("href"),
+                 
+                    type: 'GET',
+                    cache: false,
+                    success: function (response) {
+                        result = $(response).find(".featured-product");
+                       
+                    
+                        $(".homebanner-holder").html(result).replaceAll();
+                    }
+                });
+                return false;
+            });
+        });
+
+
+    </script>
+}

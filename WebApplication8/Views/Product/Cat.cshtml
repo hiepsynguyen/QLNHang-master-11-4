@@ -1,0 +1,118 @@
+﻿@using WebApplication8.Models.WebShop;
+@model IEnumerable<Product>
+@{
+    ViewBag.Title = "Category";
+}
+
+
+    <!-- ============================================== FEATURED PRODUCTS ============================================== -->
+    <section class="section featured-product wow fadeInUp">
+    @{
+            //var Language = System.Threading.Thread.CurrentThread.CurrentCulture.DisplayName;
+            var Language = "Vietnamese";
+            switch (Language)
+            {
+                case "English":
+                <h3 class="section-title">@ViewBag.CategoryName.Name </h3>
+                break;
+            default:
+            <h3 class="section-title">@ViewBag.CategoryName.NameVN </h3>
+                break;
+
+        }
+}
+        
+        <div class="owl-carousel home-owl-carousel custom-carousel owl-theme outer-top-xs">
+        @foreach(var m in Model)
+        {
+            <div class="item item-carousel">
+                <div class="products">
+
+                    <div class="product">
+                        <div class="product-image">
+                            <div class="image">
+                                <a href="~/Product/Detail/@m.Id/@m.Name.ToAscii()"><img src="~/Content/img/products/images/@m.Image"  alt="" class="img-responsive" id="@m.Id"></a>
+
+
+                                @*<img src="~/assets/images/products/3.jpg" />*@
+                            </div><!-- /.image -->
+
+                            
+                                @if (m.Special == true)
+                                {
+                                    <div class="tag hot"><span>hot</span></div>
+                                }
+
+                                @if (m.Discount > 0)
+                                {
+                                    <div class="tag sale"><span>sale</span></div>
+
+                                }
+                            @if (m.Latest == true)
+                            {
+                                <div class="tag new"><span>new</span></div>
+
+                            }
+
+                           
+                        </div><!-- /.product-image -->
+
+                        
+                        <div class="product-info text-left">
+                            <h3 class="name"><a href="~/Product/Detail/@m.Id/@m.Name.ToAscii()">@m.Name</a></h3>
+                          
+                            <div class="description"></div>
+
+                            <div class="product-price">
+                                <span class="price">
+                                    @Html.FormatValue(m.PriceP * (1 - m.Discount), "{0:N}")
+                                </span>
+                                <span class="price-before-discount">@Html.FormatValue(m.PriceP, "{0:N}") </span>
+
+                            </div><!-- /.product-price -->
+
+                        </div><!-- /.product-info -->
+                        <div class="cart clearfix animate-effect">
+                            <div class="action">
+                                <ul class="list-unstyled">
+                                    <li class="add-cart-button btn-group">
+                                        <button class="btn btn-primary icon addProduct" type="button" data-id="@m.Id">
+                                            <i class="fa fa-shopping-cart"></i>
+                                        </button>
+                                        <button class="btn btn-primary addProduct hidden" type="button" data-id="@m.Id">Thêm vào giỏ</button>
+                                        <button class="btn btn-primary addProduct" type="button"
+                                                data-urladdcart="@Url.RouteUrl(new {controller="Cart",action="Add" })"
+                                                data-id="@m.Id" data-name="@m.Name" data-url="@m.Image" data-urlpartialcart="@Url.RouteUrl(new { controller = "Cart", action = "PartialCart" })">
+                                            Thêm vào giỏ
+                                        </button>
+                                    </li>
+
+                                    
+                                </ul>
+                            </div><!-- /.action -->
+                        </div><!-- /.cart -->
+                    </div><!-- /.product -->
+
+                </div><!-- /.products -->
+            </div><!-- /.item -->
+            }
+
+
+
+
+
+
+        </div><!-- /.home-owl-carousel -->
+
+
+
+    </section><!-- /.section -->
+    <!-- ============================================== FEATURED PRODUCTS : END ============================================== -->
+
+
+@*@section scripts{
+    
+<script src="~/Scripts/FlyingCart.js"></script>
+<script src="~/Scripts/SearchAjax.js"></script>
+<script src="~/Scripts/RemoveCartAjax.js"></script>
+}*@

@@ -1,0 +1,316 @@
+﻿@model DAL.QLNHangData.Tblemployee
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Tblemployee</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.EmpI1)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.EmpI1)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.EmpNm)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.EmpNm)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.EmpN1)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.EmpN1)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.MstDr)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.MstDr)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.BirDt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.BirDt)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.SexBt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SexBt)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.MarBt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.MarBt)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DepId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DepId)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CouId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CouId)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CrdNo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CrdNo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.PosId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PosId)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.AddDr)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.AddDr)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.AddD1)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.AddD1)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.InhDt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.InhDt)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CrdId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CrdId)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CrdDt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CrdDt)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CrdLc)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CrdLc)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CitId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CitId)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.RacNm)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.RacNm)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.NatCo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NatCo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.EduId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.EduId)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ProId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ProId)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.GraId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.GraId)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.TelNo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TelNo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.TypId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TypId)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.AccNo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.AccNo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.AccNm)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.AccNm)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.BnkNm)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.BnkNm)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.RelDr)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.RelDr)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.NewBt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NewBt)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.MeaBt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.MeaBt)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.RemDr)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.RemDr)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.AttBt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.AttBt)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.SalBt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SalBt)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.VacBt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.VacBt)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DelBt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DelBt)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.GrtId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.GrtId)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.GrpId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.GrpId)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.LevId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.LevId)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.LckBt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.LckBt)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.BhxBt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.BhxBt)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DirBt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DirBt)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.BltNm)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.BltNm)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.BltDt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.BltDt)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.LstNm)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.LstNm)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.LstDt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.LstDt)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.SenDt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SenDt)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.RemD2)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.RemD2)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.FirDt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.FirDt)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="EmpId" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

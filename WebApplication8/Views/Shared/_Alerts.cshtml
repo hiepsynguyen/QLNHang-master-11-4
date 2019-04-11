@@ -1,0 +1,48 @@
+﻿@using WebApplication8.Models.UtilEntities
+@using Newtonsoft.Json;
+@{
+        List<Alert> alerts = new List<Alert>(); ;
+        if (TempData.ContainsKey(Alert.TempDataKey))
+        {
+            var x = (Newtonsoft.Json.Linq.JArray)JsonConvert.DeserializeObject(TempData[Alert.TempDataKey] + "");
+
+            if (x.Any())
+            {
+
+                foreach (var alert in x)
+                {
+                    Alert alert_ = new Alert()
+                    {
+                     AlertStyle = alert.ElementAt(0).ToString().Replace("\"AlertStyle\":", "").Replace("\"", "").Replace(" ", ""),
+                     Message = alert.ElementAt(1).ToString().Replace("\"Message\":", "").Replace("\"", ""),
+                     Dismissable = (bool)alert.ElementAt(2)
+                     };
+                alerts.Add(alert_);
+              //  string as_ = alert.ElementAt(0).ToString().Replace("\"AlertStyle\":", "").Replace("\"","");
+                //as_.Replace("\"AlertStyle\":", "");
+
+            }
+
+        }
+
+    }
+    if (alerts.Any())
+    {
+        foreach (var alert in alerts)
+        {
+            var dismissableClass = alert.Dismissable ? "alert-dismissable" : null;
+            <div class="alert alert-@alert.AlertStyle @dismissableClass" aria-hidden="true" id="id-alert">
+
+                @if (alert.Dismissable)
+                {
+                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                }
+                @Html.Raw(alert.Message)
+            </div>
+        }
+
+    }
+
+
+
+}

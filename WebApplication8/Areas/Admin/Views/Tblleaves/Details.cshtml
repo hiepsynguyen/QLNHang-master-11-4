@@ -1,0 +1,109 @@
+﻿@model DAL.QLNHangData.Tblleave
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Tblleave</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.EmpId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.EmpId)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.StrDt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.StrDt)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.EndDt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.EndDt)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.HouDy)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.HouDy)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.StrTm)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.StrTm)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.EndTm)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.EndTm)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.HouTt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.HouTt)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.LeaId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.LeaId)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DayTt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DayTt)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DayBt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DayBt)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.NotDr)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NotDr)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.BltNm)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.BltNm)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.BltDt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.BltDt)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.LstNm)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.LstNm)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.LstDt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.LstDt)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.SeqNo">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

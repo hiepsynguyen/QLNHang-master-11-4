@@ -1,0 +1,132 @@
+﻿@model IEnumerable<DAL.QLNHangData.Tbldetailsroster>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.SeqNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OnnTm)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OnnRd)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OnnBt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OffTm)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OffRd)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OffBt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TypId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MinSt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.WrkHr)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LatBt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BltNm)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BltDt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LstNm)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LstDt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ManIn)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ManOu)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.SeqNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OnnTm)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OnnRd)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OnnBt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OffTm)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OffRd)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OffBt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TypId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MinSt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WrkHr)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LatBt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BltNm)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BltDt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LstNm)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LstDt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ManIn)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ManOu)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

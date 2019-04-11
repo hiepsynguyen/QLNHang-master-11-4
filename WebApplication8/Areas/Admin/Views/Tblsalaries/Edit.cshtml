@@ -1,0 +1,57 @@
+﻿@model DAL.QLNHangData.Tblsalary
+
+@{
+    ViewData["Title"] = "Sửa lương";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" id="form-edit-basic-salary" onsubmit="return editSalary();">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="SeqNo" />
+            <input type="hidden" name="id" value="@Model.EmpId" />
+            <div class="form-group">
+                <label asp-for="EmpId" class="control-label"> Mã nhân viên</label>
+                <input asp-for="EmpId" class="form-control" required readonly />
+                <span asp-validation-for="EmpId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ChaDt" class="control-label"> Ngày áp dụng</label>
+                <input asp-for="ChaDt" class="form-control" required type="date" />
+                <span asp-validation-for="ChaDt" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Lcb" class="control-label">Lương cơ bản</label>
+                <input asp-for="Lcb" required class="form-control" />
+                <span asp-validation-for="Lcb" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-sm btn-flat btn-warning" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" class="btn btn-default btn-sm btn-flat" >Back to List</a>
+</div>
+@section scripts{
+    <script>
+        function editSalary() {
+            $.post('@Url.RouteUrl(new { controller= "Tblsalaries", action= "EditPost", area="admin"})',
+                $('#form-edit-basic-salary').serialize(),
+                function (response) {
+                    if (response === "" || response === null) {
+                        alert("Sửa thành công...");
+                        window.close();
+                    }
+                    else {
+                        alert(response);
+                    }
+                });
+            return false;
+        }
+    </script>
+}

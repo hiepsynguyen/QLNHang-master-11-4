@@ -1,0 +1,70 @@
+﻿@model DAL.QLNHangData.Tblfood
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Tblfood</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FodName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.FodName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Pic)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Pic)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Rate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Rate)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Del)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Del)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.FodAvailable)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.FodAvailable)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Fodca)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Fodca.FodcaId)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="FodId" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

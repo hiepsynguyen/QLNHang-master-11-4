@@ -1,0 +1,32 @@
+﻿@model DAL.QLNHangData.Tblroster
+
+@{
+    ViewData["Title"] = "Tạo ca";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ShiId" class="control-label"></label>
+                <input asp-for="ShiId" class="form-control" />
+                <span asp-validation-for="ShiId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ShiNm" class="control-label"></label>
+                <input asp-for="ShiNm" class="form-control" />
+                <span asp-validation-for="ShiNm" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-success btn-flat btn-sm" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" class="btn btn-flat btn-sm btn-warning">Back to List</a>
+</div>
+

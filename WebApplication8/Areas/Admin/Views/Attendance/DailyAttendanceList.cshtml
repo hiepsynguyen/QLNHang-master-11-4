@@ -1,0 +1,366 @@
+﻿@using WebApplication8.Areas.Admin.Models.AttendanceViewModels
+@model DailyAttendanceSearchModel
+@{
+    ViewData["Title"] = "Chi tiết chấm công";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+    var list_details = (List<DailyAttendanceListView>)ViewData["list_details"];
+}
+<style>
+    #range-datetime-dt .calendar-table {
+        display: none;
+    }
+</style>
+<div class="row col-md-12">
+    <div class="col-md-1"><button class="btn btn-flat btn-success btn-sm" id="btn-add-details-att-data"><i class="fa fa-plus"></i></button></div>
+    <div class="col-md-10">
+        <form action="" method="get">
+            <div class="col-md-3">
+                <div class="form-group">
+                    <input asp-for="EmpId" class="form-control" placeholder="Nhập mã nhân viên" />
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="col-md-6"><div class="form-group"><input asp-for="DateRange.StrDate" class="form-control" placeholder="Ngày bắt đầu" /></div></div>
+                <div class="col-md-6"><div class="form-group"><input asp-for="DateRange.EndDate" class="form-control" placeholder="Ngày kết thúc" /></div></div>
+            </div>
+            <div class="col-md-1">
+                <button class="btn btn-flat btn-primary btn-sm"><i class="fa fa-search"></i></button>
+            </div>
+        </form>
+    </div>
+    <div class="col-md-2">
+        <button class="btn btn-flat btn-warning btn-sm" id="btn-edit-att"><i class="fa fa-pencil"></i></button>
+        <button class="btn btn-flat btn-default btn-sm" id="btn-retransfer-att"><i class="fa fa-refresh"></i></button>
+    </div>
+</div>
+<div class="col-md-12" style="margin-top:3px">
+    <div class="table-responsive">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Mã nhân viên</th>
+                    <th>Tên Nhân viên</th>
+                    <th>Ngày            </th>
+                    <th>Ca              </th>
+                    <th>Bộ phận</th>
+                    <th>Giờ vào 1       </th>
+                    <th>Giờ ra 1        </th>
+                    <th>Giờ công        </th>
+                    <th>Note            </th>
+                    <th>Ngày công       </th>
+                    <th>Phút trễ        </th>
+                    <th>Phút sớm        </th>
+                    <th>Phút vắng       </th>
+                    <th>Giờ phép        </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    foreach (var d in list_details)
+                    {
+                        <tr class="att-details" data-obj="@(Newtonsoft.Json.JsonConvert.SerializeObject(d))" data-id="@d.detailsatt.EmpId" data-dt="@d.detailsatt.AttDt">
+                            <td>@d.detailsatt.EmpId</td>
+                            <td>@d.name_emp</td>
+                            <td>@d.detailsatt.AttDt</td>
+                            <td>@d.detailsatt.ShiId</td>
+                            <td>@d.dep_nm</td>
+                            <td>@d.detailsatt.Onn01</td>
+                            <td>@d.detailsatt.Off01</td>
+                            <td>@d.detailsatt.AttHr</td>
+                            <td>@d.detailsatt.NotDr</td>
+                            <td>@d.detailsatt.AttDy</td>
+                            <td>@d.detailsatt.LatMn</td>
+                            <td>@d.detailsatt.EarMn</td>
+                            <td>@d.detailsatt.AbsMn</td>
+                            <td>@d.detailsatt.LeaH1</td>
+                            <td></td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+
+</div>
+<!-- Modal -->
+<div id="editModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Sửa chi tiết chấm công</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row col-md-12">
+                    <form id="frm-details-att-data">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="form-group">
+                                    <label>Mã nhân viên:</label>
+                                    <input type="text" class="form-control" value="" name="EMP_ID" id="edit_modal_emp_id" readonly />
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="form-group">
+                                    <label>Tên nhân viên:</label>
+                                    <input type="text" class="form-control" value="" id="edit_modal_emp_nm" readonly />
+                                    <input type="hidden" value="" name="NOT_DR" id="edit_modal_not_dr"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="form-group">
+                                    <label>Ngày:</label>
+                                    <input type="text" class="form-control" value="" name="ATT_DT" id="edit_modal_att_dt" readonly />
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="form-group">
+                                    <label>Ca:</label>
+                                    <input type="text" class="form-control" value="" name="SHI_ID" id="edit_modal_shi_id" readonly />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="form-group">
+                                        <label>Vào: </label>
+                                        <input type="text" placeholder="HH:mm" name="ONN_01" class="form-control" id="edit_modal_onn_01" />
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="form-group">
+                                        <label>Ra: </label>
+                                        <input type="text" class="form-control" name="OFF_01" placeholder="HH:mm" id="edit_modal_off_01" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="modal-footer">
+                @*<button type="button" class="btn btn-cal btn-primary btn-flat btn-sm"><i class="fa fa-save"></i></button>*@
+                <button type="button" id="btn-edit-details-att" class="btn btn-primary btn-flat btn-sm"><i class="fa fa-save"></i></button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div id="addModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+
+        <div class="modal-content">
+            <form id="frm-add-details-att-data" onsubmit="return onAddDailyAttendance();">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Thêm chi tiết chấm công</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="col-md-12">
+
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="form-group">
+                                    <label>Nhân viên:</label>
+                                    @*<select id="add_modal_emp_id" name="EMP_ID" required class="form-control">
+                                        <option value="">----</option>
+                                    </select>*@
+                                    <input type="text" id="add_modal_emp_id" name="EMP_ID" required class="form-control" />
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="form-group">
+                                    <label>Ngày: </label>
+                                    <input type="date" required id="add_modal_att_dt" name="ATT_DT" class="form-control" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="form-group">
+                                        <label>Vào: </label>
+                                        <input type="text" required placeholder="HH:mm" name="ONN_01" class="form-control" id="add_modal_onn_01" />
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="form-group">
+                                        <label>Ra: </label>
+                                        <input type="text" required class="form-control" name="OFF_01" placeholder="HH:mm" id="add_modal_off_01" />
+                                    </div>
+                                </div>
+                            </div>
+                            @*<div class="col-md-6 col-sm-6">
+                                <div class="form-group">
+                                    <label>Ca:</label>
+                                    <select id="add_modal_shi_id" name="SHI_ID" class="form-control">
+                                        <option value="">----</option>
+                                    </select>
+                                </div>
+                            </div>*@
+                        </div>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary btn-flat btn-sm" type="submit"><i class="fa fa-save"></i></button>
+                    <button type="button" class="btn btn-danger btn-flat" data-dismiss="modal">Close</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</div>
+<div id="range-datetime-dt" style="position:relative">
+
+</div>
+@section scripts{
+    <script>
+        $(document).ready(function () {
+            //alert('abc');
+            $('.att-details').off().on('click', function (e) {
+                $('.att-details').removeClass('bg-blue-selected');
+                $(this).addClass('bg-blue-selected');
+            });
+            $('#edit_modal_onn_01').mask('00:00');
+            $('#edit_modal_off_01').mask('00:00');
+            $('#add_modal_onn_01').mask('00:00');
+            $('#add_modal_off_01').mask('00:00');
+
+            //$('#edit_modal_off_01').datetimepicker({
+            //    datepicker: false,
+            //    format: 'HH:mm'
+            //});
+
+            //$('#datetime-range').daterangepicker({
+            //    //format: 'HH:mm',
+            //    timePicker: true,
+            //    timePicker24Hour: true,
+            //    alwaysShowCalendars: false,
+            //    parentEl: "#range-datetime-dt",
+            //    locale: {
+            //        format: 'HH:mm'
+            //    }
+            //}, function (start, end, label) {
+            //    $('#ucLeave_STR_TM').val(start.format('HH:mm'));
+            //    $('#ucLeave_END_TM').val(end.format('HH:mm'));
+            //    //onChangeTime();
+            //    //console.log("A new date selection was made: " + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD'));
+            //});
+            onEditAtt();
+            onEditDailyAttendance();
+            onShowAddDailyAttendanceModal();
+            onReTransferAtt();
+        });
+
+        function onEditAtt() {
+            $('#btn-edit-att').off().on('click', function () {
+                //console.log($('.bg-blue-selected'));
+                //var a = JSON.parse($(this).data('obj'));
+                //console.log($(this).data('obj'));
+                var _selected = $('.bg-blue-selected');
+                if (_selected.length > 0) {
+                    //$(_selected).data('obj');
+                    //var a = JSON.parse($(_selected[0]).data('obj'));
+                    //console.log($(_selected[0]).data('obj'));
+                    if (typeof ($(_selected[0]).data('obj')) === "object") {
+                        var _o = $(_selected[0]).data('obj');
+                        $('#edit_modal_emp_id').val(_o.detailsatt.EmpId);
+                        $('#edit_modal_emp_nm').val(_o.name_emp);
+                        $('#edit_modal_not_dr').val(_o.detailsatt.NotDr);
+                        $('#edit_modal_att_dt').val(_o.detailsatt.AttDt);
+                        $('#edit_modal_shi_id').val(_o.detailsatt.ShiId);
+
+                        $('#edit_modal_onn_01').val((_o.detailsatt.Onn01 + "$").replace(/[0-9][0-9]\$/gi, function (x) {
+                            return ":"+x.replace("$","");
+                        }));
+                        $('#edit_modal_off_01').val((_o.detailsatt.Off01 + "$").replace(/[0-9][0-9]\$/gi, function (x) {
+                            return ":" + x.replace("$", "");
+                        }));
+                        $('#editModal').modal({ backdrop: 'static' });
+                    }
+                }
+            });
+        }
+
+        function onReTransferAtt() {
+            $('#btn-retransfer-att').off().on('click', function () {
+                if (confirm("Bạn có muốn transfer lại dữ liệu đã quẹt ?")) {
+                    var _selected = $('.bg-blue-selected');
+                    if (_selected.length > 0) {
+                        var _o = $(_selected[0]).data('obj');
+                        console.log(_o);
+                        $.post('@Url.RouteUrl(new {controller= "Attendance", action= "TransferDailyAttendanceFromCardData", area="admin" })',
+                            "ATT_DT=" + _o.detailsatt.AttDt + "&EMP_ID=" + _o.detailsatt.EmpId,
+                            function (response) {
+                                if (response === null) { alert("ReTransfer thành công..."); location.reload(); return; }
+                                if (typeof (response) === "string") {
+                                    if (response === "") {
+                                        //console.log("Sửa thành công");
+                                        alert("ReTransfer thành công...");
+                                        location.reload();
+                                    } else
+                                        alert(response);
+                                }
+                            });
+                    }
+                }
+                //console.log($('.bg-blue-selected'));
+                //var a = JSON.parse($(this).data('obj'));
+                //console.log($(this).data('obj'));
+            });
+        }
+
+        function onEditDailyAttendance() {
+            $('#btn-edit-details-att').off().on('click', function () {
+                if (confirm("Bạn có muốn sửa chi tiết chấm công ?")) {
+                    $.post('@Url.RouteUrl(new { controller= "Attendance", action= "CalDailyAttendance", area="admin"})', $('#frm-details-att-data').serialize(),
+                    function (response) {
+                        if (typeof (response) === "string") {
+                            if (response === "") {
+                                //console.log("Sửa thành công");
+                                alert("Sửa thành công");
+                            } else
+                            alert(response);
+                        }
+                    });
+                }
+            });
+        }
+
+        function onShowAddDailyAttendanceModal() {
+            $('#btn-add-details-att-data').off().on('click', function () {
+                $('#addModal').modal({backdrop: 'static'});
+            });
+        }
+
+        function onAddDailyAttendance() {
+            if (confirm("Bạn có muốn thêm chi tiết chấm công ?")) {
+                $.post('@Url.RouteUrl(new {controller= "Attendance", action= "AddDailyAttendance", area="admin" })',
+                    $('#frm-add-details-att-data').serialize(),
+                    function (response) {
+                        console.log(response);
+                        if (typeof (response) === "string") {
+                            if (response == "") {
+                                alert("Thêm thành công...!");
+                                location.reload();
+                            }
+                            else {
+                                alert(response);
+                            }
+                        }
+                    });
+            }
+            return false;
+        }
+    </script>
+
+}
+

@@ -1,0 +1,894 @@
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\bin\Debug\netcoreapp2.1\WebApplication8.deps.json
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\bin\Debug\netcoreapp2.1\WebApplication8.runtimeconfig.json
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\bin\Debug\netcoreapp2.1\WebApplication8.runtimeconfig.dev.json
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\bin\Debug\netcoreapp2.1\WebApplication8.dll
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\bin\Debug\netcoreapp2.1\WebApplication8.pdb
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\bin\Debug\netcoreapp2.1\WebApplication8.Views.dll
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\bin\Debug\netcoreapp2.1\WebApplication8.Views.pdb
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.csproj.CoreCompileInputs.cache
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.RazorAssemblyInfo.cache
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.RazorAssemblyInfo.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.AssemblyInfoInputs.cache
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.AssemblyInfo.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.TagHelpers.input.cache
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.TagHelpers.output.cache
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.RazorCoreGenerate.cache
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.RazorTargetAssemblyInfo.cache
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.RazorTargetAssemblyInfo.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Views.pdb
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.dll
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.pdb
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.csproj.CopyComplete
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Home\TestSignalR.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\bin\Debug\netcoreapp2.1\en\WebApplication8.resources.dll
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\bin\Debug\netcoreapp2.1\vi\WebApplication8.resources.dll
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Controllers.HomeController.en.resources
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Controllers.HomeController.vi.resources
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Home.Index.vi.resources
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Product.Detail.vi.resources
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Product.ProductList.vi.resources
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Shared.Components.CategoryHome.Default.vi.resources
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Shared.Components.HeaderHome.Default.en.resources
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Shared.Components.HeaderHome.Default.vi.resources
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Shared.Components.SaleOffHome.Default.vi.resources
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Shared.Components.SpecialHome.Default.vi.resources
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.WebApplication8.Resources.Globalization.en.resources
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.csproj.GenerateResource.cache
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\en\WebApplication8.resources.dll
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\vi\WebApplication8.resources.dll
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\ConfirmEmail.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\ExternalLoginConfirmation.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\ExternalLoginFailure.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\ForgotPassword.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\ForgotPasswordConfirmation.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\Lockout.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\ResetPassword.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\ResetPasswordConfirmation.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\SendCode.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\VerifyCode.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Cart\Index.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Customer\Edit.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Customer\Login.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Customer\Register.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Manage\AddPhoneNumber.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Manage\ChangePassword.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Manage\Index.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Manage\ManageLogins.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Manage\SetPassword.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Manage\VerifyPhoneNumber.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Order\Charge.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Order\Checkout.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Order\Detail.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Order\List.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Product\Cat.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Product\Detail.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Product\Index.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Product\ProductList.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\CategoryHome\Default.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\HeaderHome\Default.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\OrderDetail\Default.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\SaleOffHome\Default.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\SpecialHome\Default.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_boxChat.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_Cart.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_Category.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_Contact.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_ErrorValidate.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_Footer.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_Header.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_OrderDetail.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_PartialCart.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_RemoveAccountPartial.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_Search.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Alerts.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ModelPopup.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_MyLayout.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Account\Login.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Admin\Index.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Category\Index.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Customers\Create.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Customers\Delete.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Customers\Details.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Customers\Edit.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Customers\Index.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\ImportStocks\Create.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\ImportStocks\Delete.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\ImportStocks\Details.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\ImportStocks\Edit.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\ImportStocks\Index.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Inventorymanagement\Index.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Master\Index.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Master\ResetPassword.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\MessageSystems\Create.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\MessageSystems\Delete.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\MessageSystems\Details.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\MessageSystems\Edit.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\MessageSystems\Index.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Message\Index.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Order\Detail.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Order\Index.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Permission\Index.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Products\Detail.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Products\Edit.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Products\Index.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Products\Insert.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\QuanLy\Index.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Revenue\Index.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\Components\NotificationAdmin\Default.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\Partials\_Aside.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\Partials\_ControlSideBar.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\Partials\_Footer.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\Partials\_Header.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\_Alerts.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\_Layout.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Supplier\Index.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\TestApplication\Index.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\WebAction\Index.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\_ViewImports.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\New folder\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\_ViewStart.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\bin\Debug\netcoreapp2.1\WebApplication8.deps.json
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\bin\Debug\netcoreapp2.1\WebApplication8.runtimeconfig.json
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\bin\Debug\netcoreapp2.1\WebApplication8.runtimeconfig.dev.json
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\bin\Debug\netcoreapp2.1\WebApplication8.dll
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\bin\Debug\netcoreapp2.1\WebApplication8.pdb
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\bin\Debug\netcoreapp2.1\en\WebApplication8.resources.dll
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\bin\Debug\netcoreapp2.1\vi\WebApplication8.resources.dll
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\bin\Debug\netcoreapp2.1\WebApplication8.Views.dll
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\bin\Debug\netcoreapp2.1\WebApplication8.Views.pdb
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.csprojAssemblyReference.cache
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Controllers.HomeController.en.resources
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Controllers.HomeController.vi.resources
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Home.Index.vi.resources
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Product.Detail.vi.resources
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Product.ProductList.vi.resources
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Shared.Components.CategoryHome.Default.vi.resources
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Shared.Components.HeaderHome.Default.en.resources
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Shared.Components.HeaderHome.Default.vi.resources
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Shared.Components.SaleOffHome.Default.vi.resources
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Shared.Components.SpecialHome.Default.vi.resources
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.WebApplication8.Resources.Globalization.en.resources
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.csproj.GenerateResource.cache
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.csproj.CoreCompileInputs.cache
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.RazorAssemblyInfo.cache
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.RazorAssemblyInfo.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.AssemblyInfoInputs.cache
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.AssemblyInfo.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\en\WebApplication8.resources.dll
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\vi\WebApplication8.resources.dll
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.TagHelpers.input.cache
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.TagHelpers.output.cache
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.RazorCoreGenerate.cache
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Account\Login.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Admin\Index.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Category\Index.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Customers\Create.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Customers\Delete.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Customers\Details.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Customers\Edit.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Customers\Index.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\ImportStocks\Create.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\ImportStocks\Delete.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\ImportStocks\Details.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\ImportStocks\Edit.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\ImportStocks\Index.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Inventorymanagement\Index.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Master\Index.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Master\ResetPassword.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\MessageSystems\Create.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\MessageSystems\Delete.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\MessageSystems\Details.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\MessageSystems\Edit.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\MessageSystems\Index.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Message\Index.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Order\Detail.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Order\Index.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Permission\Index.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Products\Detail.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Products\Edit.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Products\Index.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Products\Insert.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\QuanLy\Index.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Revenue\Index.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\Components\NotificationAdmin\Default.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\Partials\_Aside.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\Partials\_ControlSideBar.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\Partials\_Footer.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\Partials\_Header.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\_Alerts.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\_Layout.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Supplier\Index.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\TestApplication\Index.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\WebAction\Index.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\_ViewImports.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\_ViewStart.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\ConfirmEmail.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\ExternalLoginConfirmation.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\ExternalLoginFailure.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\ForgotPassword.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\ForgotPasswordConfirmation.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\Lockout.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\ResetPassword.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\ResetPasswordConfirmation.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\SendCode.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\VerifyCode.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Cart\Index.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Customer\Edit.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Customer\Login.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Customer\Register.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Home\TestSignalR.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Manage\AddPhoneNumber.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Manage\ChangePassword.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Manage\Index.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Manage\ManageLogins.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Manage\SetPassword.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Manage\VerifyPhoneNumber.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Order\Charge.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Order\Checkout.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Order\Detail.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Order\List.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Product\Cat.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Product\Detail.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Product\Index.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Product\ProductList.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\CategoryHome\Default.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\HeaderHome\Default.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\OrderDetail\Default.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\SaleOffHome\Default.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\SpecialHome\Default.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_boxChat.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_Cart.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_Category.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_Contact.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_ErrorValidate.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_Footer.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_Header.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_OrderDetail.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_PartialCart.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_RemoveAccountPartial.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_Search.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Alerts.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ModelPopup.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_MyLayout.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.RazorTargetAssemblyInfo.cache
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.RazorTargetAssemblyInfo.cs
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Views.pdb
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.dll
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.pdb
+F:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.csproj.CopyComplete
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\bin\Debug\netcoreapp2.1\WebApplication8.deps.json
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\bin\Debug\netcoreapp2.1\WebApplication8.runtimeconfig.json
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\bin\Debug\netcoreapp2.1\WebApplication8.runtimeconfig.dev.json
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\bin\Debug\netcoreapp2.1\WebApplication8.dll
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\bin\Debug\netcoreapp2.1\WebApplication8.pdb
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\bin\Debug\netcoreapp2.1\en\WebApplication8.resources.dll
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\bin\Debug\netcoreapp2.1\vi\WebApplication8.resources.dll
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\bin\Debug\netcoreapp2.1\WebApplication8.Views.dll
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\bin\Debug\netcoreapp2.1\WebApplication8.Views.pdb
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.csprojAssemblyReference.cache
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Controllers.HomeController.en.resources
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Controllers.HomeController.vi.resources
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Home.Index.vi.resources
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Product.Detail.vi.resources
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Product.ProductList.vi.resources
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Shared.Components.CategoryHome.Default.vi.resources
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Shared.Components.HeaderHome.Default.en.resources
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Shared.Components.HeaderHome.Default.vi.resources
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Shared.Components.SaleOffHome.Default.vi.resources
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Shared.Components.SpecialHome.Default.vi.resources
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.WebApplication8.Resources.Globalization.en.resources
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.csproj.GenerateResource.cache
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.csproj.CoreCompileInputs.cache
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.RazorAssemblyInfo.cache
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.RazorAssemblyInfo.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.AssemblyInfoInputs.cache
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.AssemblyInfo.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\en\WebApplication8.resources.dll
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\vi\WebApplication8.resources.dll
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.TagHelpers.input.cache
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.TagHelpers.output.cache
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.RazorCoreGenerate.cache
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Account\Login.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Admin\Index.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Category\Index.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Customers\Create.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Customers\Delete.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Customers\Details.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Customers\Edit.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Customers\Index.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\ImportStocks\Create.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\ImportStocks\Delete.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\ImportStocks\Details.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\ImportStocks\Edit.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\ImportStocks\Index.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Inventorymanagement\Index.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Master\Index.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Master\ResetPassword.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\MessageSystems\Create.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\MessageSystems\Delete.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\MessageSystems\Details.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\MessageSystems\Edit.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\MessageSystems\Index.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Message\Index.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Order\Detail.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Order\Index.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Permission\Index.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Products\Detail.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Products\Edit.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Products\Index.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Products\Insert.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\QuanLy\Index.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Revenue\Index.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\Components\NotificationAdmin\Default.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\Partials\_Aside.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\Partials\_ControlSideBar.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\Partials\_Footer.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\Partials\_Header.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\_Alerts.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\_Layout.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Supplier\Index.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\TestApplication\Index.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\WebAction\Index.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\_ViewImports.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\_ViewStart.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\ConfirmEmail.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\ExternalLoginConfirmation.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\ExternalLoginFailure.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\ForgotPassword.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\ForgotPasswordConfirmation.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\Lockout.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\ResetPassword.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\ResetPasswordConfirmation.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\SendCode.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\VerifyCode.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Cart\Index.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Customer\Edit.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Customer\Login.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Customer\Register.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Home\TestSignalR.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Manage\AddPhoneNumber.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Manage\ChangePassword.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Manage\Index.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Manage\ManageLogins.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Manage\SetPassword.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Manage\VerifyPhoneNumber.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Order\Charge.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Order\Checkout.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Order\Detail.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Order\List.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Product\Cat.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Product\Detail.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Product\Index.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Product\ProductList.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\CategoryHome\Default.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\HeaderHome\Default.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\OrderDetail\Default.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\SaleOffHome\Default.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\SpecialHome\Default.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_boxChat.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_Cart.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_Category.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_Contact.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_ErrorValidate.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_Footer.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_Header.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_OrderDetail.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_PartialCart.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_RemoveAccountPartial.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_Search.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Alerts.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ModelPopup.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_MyLayout.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.RazorTargetAssemblyInfo.cache
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.RazorTargetAssemblyInfo.cs
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Views.pdb
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.dll
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.pdb
+E:\trung\sources\web\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.csproj.CopyComplete
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\bin\Debug\netcoreapp2.1\WebApplication8.deps.json
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\bin\Debug\netcoreapp2.1\WebApplication8.runtimeconfig.json
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\bin\Debug\netcoreapp2.1\WebApplication8.runtimeconfig.dev.json
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\bin\Debug\netcoreapp2.1\WebApplication8.dll
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\bin\Debug\netcoreapp2.1\WebApplication8.pdb
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\bin\Debug\netcoreapp2.1\en\WebApplication8.resources.dll
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\bin\Debug\netcoreapp2.1\vi\WebApplication8.resources.dll
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\bin\Debug\netcoreapp2.1\WebApplication8.Views.dll
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\bin\Debug\netcoreapp2.1\WebApplication8.Views.pdb
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Controllers.HomeController.en.resources
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Controllers.HomeController.vi.resources
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Home.Index.vi.resources
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Product.Detail.vi.resources
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Product.ProductList.vi.resources
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Shared.Components.CategoryHome.Default.vi.resources
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Shared.Components.HeaderHome.Default.en.resources
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Shared.Components.HeaderHome.Default.vi.resources
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Shared.Components.SaleOffHome.Default.vi.resources
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Shared.Components.SpecialHome.Default.vi.resources
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.WebApplication8.Resources.Globalization.en.resources
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.csproj.GenerateResource.cache
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.csproj.CoreCompileInputs.cache
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.RazorAssemblyInfo.cache
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.RazorAssemblyInfo.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.AssemblyInfoInputs.cache
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.AssemblyInfo.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\en\WebApplication8.resources.dll
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\vi\WebApplication8.resources.dll
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.TagHelpers.input.cache
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.TagHelpers.output.cache
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.RazorCoreGenerate.cache
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Account\Login.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Admin\Index.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Customers\Create.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Customers\Delete.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Customers\Details.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Customers\Edit.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Customers\Index.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Master\Index.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Master\ResetPassword.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Permission\Index.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\QuanLy\Index.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\TestApplication\Index.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\WebAction\Index.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\_ViewImports.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\_ViewStart.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\ConfirmEmail.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\ExternalLoginConfirmation.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\ExternalLoginFailure.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\ForgotPassword.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\ForgotPasswordConfirmation.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\Lockout.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\ResetPassword.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\ResetPasswordConfirmation.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\SendCode.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\VerifyCode.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Manage\AddPhoneNumber.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Manage\ChangePassword.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Manage\Index.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Manage\ManageLogins.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Manage\SetPassword.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Manage\VerifyPhoneNumber.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\CategoryHome\Default.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\HeaderHome\Default.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\OrderDetail\Default.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\SaleOffHome\Default.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\SpecialHome\Default.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_boxChat.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_Cart.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_Category.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_Contact.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_ErrorValidate.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_Footer.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_Header.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_OrderDetail.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_PartialCart.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_RemoveAccountPartial.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_Search.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Alerts.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ModelPopup.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_MyLayout.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.RazorTargetAssemblyInfo.cache
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.RazorTargetAssemblyInfo.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Views.pdb
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.dll
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.pdb
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.csproj.CopyComplete
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Monans\Create.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Monans\Delete.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Monans\Details.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Monans\Edit.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Monans\Index.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LayoutQLNH.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\HomeQLNH\Index.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tbldeparments\Create.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tbldeparments\Delete.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tbldeparments\Details.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tbldeparments\Edit.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tbldeparments\Index.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblemployees\Create.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblemployees\Delete.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblemployees\Details.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblemployees\Edit.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblemployees\Index.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Attendance\DailyAttendanceList.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\Components\NotificationAdmin\Default.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\Partials\_Aside.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\Partials\_ControlSideBar.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\Partials\_Footer.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\Partials\_Header.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\_Alerts.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\_Layout.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblrosters\Create.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblrosters\Delete.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblrosters\Details.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblrosters\Edit.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblrosters\Index.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tbldetailsrosters\Create.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tbldetailsrosters\Delete.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tbldetailsrosters\Details.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tbldetailsrosters\Edit.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tbldetailsrosters\Index.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tbldetailsrosters\GetListDetailsRosterByRoster.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblleaves\Create.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblleaves\Delete.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblleaves\Details.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblleaves\Edit.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblleaves\Index.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblleaves\GetListLeaveByEmpId.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblleaves\LeaveInsert.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblleaves\LeaveUpdate.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\bin\Debug\netcoreapp2.1\WebApplication8.deps.json
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\bin\Debug\netcoreapp2.1\WebApplication8.runtimeconfig.json
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\bin\Debug\netcoreapp2.1\WebApplication8.runtimeconfig.dev.json
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\bin\Debug\netcoreapp2.1\WebApplication8.dll
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\bin\Debug\netcoreapp2.1\WebApplication8.pdb
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\bin\Debug\netcoreapp2.1\en\WebApplication8.resources.dll
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\bin\Debug\netcoreapp2.1\vi\WebApplication8.resources.dll
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\bin\Debug\netcoreapp2.1\WebApplication8.Views.dll
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\bin\Debug\netcoreapp2.1\WebApplication8.Views.pdb
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Controllers.HomeController.en.resources
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Controllers.HomeController.vi.resources
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Home.Index.vi.resources
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Product.Detail.vi.resources
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Product.ProductList.vi.resources
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Shared.Components.CategoryHome.Default.vi.resources
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Shared.Components.HeaderHome.Default.en.resources
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Shared.Components.HeaderHome.Default.vi.resources
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Shared.Components.SaleOffHome.Default.vi.resources
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Shared.Components.SpecialHome.Default.vi.resources
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.WebApplication8.Resources.Globalization.en.resources
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.csproj.GenerateResource.cache
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.csproj.CoreCompileInputs.cache
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.RazorAssemblyInfo.cache
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.RazorAssemblyInfo.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.AssemblyInfoInputs.cache
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.AssemblyInfo.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\en\WebApplication8.resources.dll
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\vi\WebApplication8.resources.dll
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.TagHelpers.input.cache
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.TagHelpers.output.cache
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.RazorCoreGenerate.cache
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Account\Login.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Admin\Index.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Attendance\DailyAttendanceList.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Customers\Create.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Customers\Delete.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Customers\Details.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Customers\Edit.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Customers\Index.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Master\Index.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Master\ResetPassword.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Monans\Create.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Monans\Delete.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Monans\Details.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Monans\Edit.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Monans\Index.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Permission\Index.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\QuanLy\Index.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\Components\NotificationAdmin\Default.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\Partials\_Aside.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\Partials\_ControlSideBar.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\Partials\_Footer.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\Partials\_Header.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\_Alerts.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\_Layout.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tbldeparments\Create.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tbldeparments\Delete.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tbldeparments\Details.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tbldeparments\Edit.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tbldeparments\Index.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tbldetailsrosters\Create.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tbldetailsrosters\Delete.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tbldetailsrosters\Details.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tbldetailsrosters\Edit.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tbldetailsrosters\GetListDetailsRosterByRoster.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tbldetailsrosters\Index.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblemployees\Create.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblemployees\Delete.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblemployees\Details.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblemployees\Edit.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblemployees\Index.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblleaves\Create.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblleaves\Delete.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblleaves\Details.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblleaves\Edit.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblleaves\GetListLeaveByEmpId.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblleaves\Index.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblleaves\LeaveInsert.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblleaves\LeaveUpdate.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblrosters\Create.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblrosters\Delete.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblrosters\Details.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblrosters\Edit.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblrosters\Index.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\TestApplication\Index.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\WebAction\Index.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\_ViewImports.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\_ViewStart.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\ConfirmEmail.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\ExternalLoginConfirmation.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\ExternalLoginFailure.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\ForgotPassword.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\ForgotPasswordConfirmation.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\Lockout.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\ResetPassword.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\ResetPasswordConfirmation.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\SendCode.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\VerifyCode.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\HomeQLNH\Index.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Manage\AddPhoneNumber.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Manage\ChangePassword.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Manage\Index.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Manage\ManageLogins.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Manage\SetPassword.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Manage\VerifyPhoneNumber.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\CategoryHome\Default.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\HeaderHome\Default.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\OrderDetail\Default.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\SaleOffHome\Default.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\SpecialHome\Default.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_boxChat.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_Cart.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_Category.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_Contact.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_ErrorValidate.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_Footer.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_Header.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_OrderDetail.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_PartialCart.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_RemoveAccountPartial.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_Search.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Alerts.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LayoutQLNH.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ModelPopup.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_MyLayout.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.RazorTargetAssemblyInfo.cache
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.RazorTargetAssemblyInfo.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Views.pdb
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.dll
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.pdb
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.csproj.CopyComplete
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\AttMonthAddUp\Index.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\AttMonthAddUp\Cal.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\AttMonthAddUp\Cal.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\AttMonthAddUp\Index.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblsalaries\Create.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblsalaries\Delete.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblsalaries\Details.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblsalaries\Edit.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblsalaries\Index.g.cshtml.cs
+E:\New folder (2)\Web_Nang_Cao\WebMVC6\QLNHang\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.csprojAssemblyReference.cache
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblsalaries\Create.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblsalaries\Delete.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblsalaries\Details.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblsalaries\Edit.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblsalaries\GetBasicSalaryByEmpId.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblsalaries\Index.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Payroll\Cal.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Payroll\Index.g.cshtml.cs
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.csprojAssemblyReference.cache
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\bin\Debug\netcoreapp2.1\DAL.dll
+E:\trung\sources\web\MVC6\WebShop-MVC6-Core-2.1\WebApplication8\WebApplication8\bin\Debug\netcoreapp2.1\DAL.pdb
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\bin\Debug\netcoreapp2.1\WebApplication8.deps.json
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\bin\Debug\netcoreapp2.1\WebApplication8.runtimeconfig.json
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\bin\Debug\netcoreapp2.1\WebApplication8.runtimeconfig.dev.json
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\bin\Debug\netcoreapp2.1\WebApplication8.dll
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\bin\Debug\netcoreapp2.1\WebApplication8.pdb
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\bin\Debug\netcoreapp2.1\en\WebApplication8.resources.dll
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\bin\Debug\netcoreapp2.1\vi\WebApplication8.resources.dll
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\bin\Debug\netcoreapp2.1\WebApplication8.Views.dll
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\bin\Debug\netcoreapp2.1\WebApplication8.Views.pdb
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\bin\Debug\netcoreapp2.1\DAL.dll
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\bin\Debug\netcoreapp2.1\DAL.pdb
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.csprojAssemblyReference.cache
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Controllers.HomeController.en.resources
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Controllers.HomeController.vi.resources
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Home.Index.vi.resources
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Product.Detail.vi.resources
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Product.ProductList.vi.resources
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Shared.Components.CategoryHome.Default.vi.resources
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Shared.Components.HeaderHome.Default.en.resources
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Shared.Components.HeaderHome.Default.vi.resources
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Shared.Components.SaleOffHome.Default.vi.resources
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.Views.Shared.Components.SpecialHome.Default.vi.resources
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Resources.WebApplication8.Resources.Globalization.en.resources
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.csproj.GenerateResource.cache
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.csproj.CoreCompileInputs.cache
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.RazorAssemblyInfo.cache
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.RazorAssemblyInfo.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.AssemblyInfoInputs.cache
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.AssemblyInfo.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\en\WebApplication8.resources.dll
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\vi\WebApplication8.resources.dll
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.TagHelpers.input.cache
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.TagHelpers.output.cache
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.RazorCoreGenerate.cache
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Account\Login.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Admin\Index.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Attendance\DailyAttendanceList.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\AttMonthAddUp\Cal.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\AttMonthAddUp\Index.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Customers\Create.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Customers\Delete.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Customers\Details.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Customers\Edit.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Customers\Index.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Master\Index.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Master\ResetPassword.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Monans\Create.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Monans\Delete.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Monans\Details.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Monans\Edit.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Monans\Index.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Payroll\Cal.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Payroll\Index.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Permission\Index.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\QuanLy\Index.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\Components\NotificationAdmin\Default.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\Partials\_Aside.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\Partials\_ControlSideBar.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\Partials\_Footer.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\Partials\_Header.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\_Alerts.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tbldeparments\Create.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tbldeparments\Delete.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tbldeparments\Details.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tbldeparments\Edit.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tbldeparments\Index.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tbldetailsrosters\Create.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tbldetailsrosters\Delete.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tbldetailsrosters\Details.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tbldetailsrosters\Edit.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tbldetailsrosters\GetListDetailsRosterByRoster.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tbldetailsrosters\Index.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblemployees\Create.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblemployees\Delete.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblemployees\Details.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblemployees\Edit.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblemployees\Index.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblleaves\Create.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblleaves\Delete.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblleaves\Details.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblleaves\Edit.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblleaves\GetListLeaveByEmpId.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblleaves\Index.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblleaves\LeaveInsert.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblleaves\LeaveUpdate.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblrosters\Create.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblrosters\Delete.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblrosters\Details.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblrosters\Edit.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblrosters\Index.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblsalaries\Create.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblsalaries\Delete.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblsalaries\Details.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblsalaries\Edit.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblsalaries\GetBasicSalaryByEmpId.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblsalaries\Index.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\TestApplication\Index.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\WebAction\Index.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\_ViewImports.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\_ViewStart.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\ConfirmEmail.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\ExternalLoginConfirmation.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\ExternalLoginFailure.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\ForgotPassword.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\ForgotPasswordConfirmation.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\Lockout.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\ResetPassword.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\ResetPasswordConfirmation.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\SendCode.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Account\VerifyCode.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\HomeQLNH\Index.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Manage\AddPhoneNumber.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Manage\ChangePassword.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Manage\Index.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Manage\ManageLogins.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Manage\SetPassword.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Manage\VerifyPhoneNumber.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\CategoryHome\Default.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\HeaderHome\Default.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\OrderDetail\Default.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\SaleOffHome\Default.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\SpecialHome\Default.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_boxChat.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_Cart.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_Category.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_Contact.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_ErrorValidate.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_Footer.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_Header.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_OrderDetail.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_PartialCart.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_RemoveAccountPartial.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partials\_Search.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Alerts.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LayoutQLNH.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ModelPopup.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_MyLayout.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.RazorTargetAssemblyInfo.cache
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.RazorTargetAssemblyInfo.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.Views.pdb
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.csproj.CopyComplete
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.dll
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\WebApplication8.pdb
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblfoods\Create.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblfoods\Delete.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblfoods\Details.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblfoods\Edit.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tblfoods\Index.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tbltablecategories\Create.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tbltablecategories\Delete.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tbltablecategories\Details.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tbltablecategories\Edit.g.cshtml.cs
+C:\Users\tien\Downloads\Compressed\QLNHang-master\QLNHang-master\WebApplication8\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Tbltablecategories\Index.g.cshtml.cs

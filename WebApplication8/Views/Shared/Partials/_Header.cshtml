@@ -1,0 +1,315 @@
+﻿@using WebApplication8.Models.WebShop;
+@using WebApplication8.Models.ShoppingCart;
+@*using WebShop.I18N*@
+@model IEnumerable<WebApplication8.Models.WebShop.Product>
+
+@{
+    var username = "";
+    if (User.Identity.IsAuthenticated)
+    {
+        username = User.Identity.Name;
+    }
+    //var a = ShoppingCart.Total;
+}
+
+@{
+   /* var language = "English"; 
+    try
+    { 
+    if(Request.Cookies["Culture"].Value=="vi")
+    {
+      language = "Vietnam";
+    }
+    else
+    {
+       language = "English"; 
+    }
+    }
+    catch
+    {
+        
+    }*/
+
+}
+
+<!-- ============================================== HEADER ============================================== -->
+<header class="header-style-1">
+
+    <!-- ============================================== TOP MENU ============================================== -->
+    <div class="top-bar animate-dropdown" id="top-bar">
+        <div class="container">
+            <div class="header-top-inner">
+               
+
+                <div class="cnt-block">
+                    <ul class="list-unstyled list-inline">
+                        
+
+                        <li class="dropdown dropdown-small">
+                            <a href="#" id="language" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown"><span class="key">language :</span><span class="value">@*@language*@[Language]</span><b class="caret"></b></a>
+                            <ul class="dropdown-menu" id="drop-language">
+                                <li><a href="@Url.RouteUrl(new { controller = "Home", action = "Culture/en" })">English</a></li>
+                                <li><a href="@Url.RouteUrl(new { controller = "Home", action = "Culture/vi" })">Vietnam</a></li>
+                                
+                            </ul>
+                        </li>
+                    </ul><!-- /.list-unstyled -->
+                </div><!-- /.cnt-cart -->
+                <div class="clearfix"></div>
+            </div><!-- /.header-top-inner -->
+        </div><!-- /.container -->
+    </div><!-- /.header-top -->
+    <!-- ============================================== TOP MENU : END ============================================== -->
+    <div class="main-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-3 logo-holder">
+                    <!-- ============================================================= LOGO ============================================================= -->
+                    <div class="logo">
+                        <a href="~/Home/Index">
+
+                        
+                            <h2>Shop Online</h2>
+
+                        </a>
+                    </div><!-- /.logo -->
+                    <!-- ============================================================= LOGO : END ============================================================= -->
+                </div><!-- /.logo-holder -->
+
+                <div class="col-xs-12 col-sm-12 col-md-6 top-search-holder">
+                    <div class="contact-row">
+                        <div class="phone inline">
+                            <i class="icon fa fa-phone"></i> 0967032885
+                        </div>
+                        <div class="contact inline">
+                            <i class="icon fa fa-envelope"></i> trunglu885@gmail.com
+                        </div>
+                    </div><!-- /.contact-row -->
+                    <!-- ============================================================= SEARCH AREA ============================================================= -->
+                    <div class="search-area">
+                      
+                            <div class="control-group">
+
+                                <ul class="categories-filter animate-dropdown">
+                                    <li class="dropdown">
+
+                                        <a class="dropdown-toggle" id="category" data-toggle="dropdown" href="">@*@Global.Categories*@Categories<b class="caret"></b></a>
+
+                                        <ul class="dropdown-menu" role="menu" id="drop-category" style="width:250px;">
+                                            @foreach (Category m in ViewBag.Categories)
+                                            {
+
+
+                                                // var Language = System.Threading.Thread.CurrentThread.CurrentCulture.DisplayName;
+                                                var Language = "English";
+                                                switch (Language)
+                                                {
+                                                    case "English":
+                                                       <li><a href="#">@m.Name</a></li>
+                                                        break;
+                                                    default:
+                                                   <li><a href="#">@m.NameVN</a></li>
+                                                        break;
+
+                                                }
+
+
+
+                                            }
+                                           
+                                           
+
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <input id="sp-search-field" type="text" class="search-field sp-search" data-urlsearch="@Url.RouteUrl(new { controller = "Home", action = "Search" })" placeholder="Search here..." name="keywork" />
+
+                                <a class="search-button" href="#"></a>
+
+                            </div>
+                       
+                    </div><!-- /.search-area -->
+                    <!-- ============================================================= SEARCH AREA : END ============================================================= -->
+                   
+                </div><!-- /.top-search-holder -->
+               
+                <div class="col-xs-12 col-sm-12 col-md-3 animate-dropdown top-cart-row">
+                    <!-- ============================================================= SHOPPING CART DROPDOWN ============================================================= -->
+
+                    <div class="dropdown dropdown-cart">
+                        <a href="#" class="dropdown-toggle lnk-cart" data-toggle="dropdown">
+                            <div class="items-cart-inner">
+                                <div class="total-price-basket">
+                                  
+                                    <span class="total-price">
+                                       
+                                        <span class="value nn-cart-total numeral-init">@ShoppingCart.Total.ToString() sdasd</span>
+                                        <span class="sign">đ</span>
+                                    </span>
+                                </div>
+                                <div class="basket" id="basketid">
+                                    <i class="glyphicon glyphicon-shopping-cart"></i>
+                                </div>
+                                <div class="basket-item-count" id="nn-cart-count"><span class="count1">@ShoppingCart.Count.ToString() </span></div>
+
+                            </div>
+                        </a>
+                        <ul class="dropdown-menu" style="width:450px!important">
+                            <li>
+                                <div class="cart-item product-summary" data-urlloadcart="@Url.RouteUrl(new { controller = "Cart", action = "PartialCart" })" id="cart-item">
+                                              
+                                                     @*<div class="row">
+                                                        <div class="col-xs-4">
+                                                            <div class="image">
+                                                                <a href="indexbd17.html?page=detail"><img width="41" height="63" src="/Content/img/products/1025.jpg" alt=""></a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xs-4">
+
+                                                            <h3 class="name"><a href="index8a95.html?page-detail" class="item-name"></a>Name</h3>
+                                                            <div class="price item-price"></div>
+                                                        </div>
+                                                         <div class="col-xs-2">
+
+                                                             <input class="quantity" value="1"  size="2">
+                                                             <div class="price item-price"></div>
+                                                         </div>
+                                                        <div class="col-xs-2 action pull-right">
+                                                            <a href="#" class="removeProduct"><i class="fa fa-trash"></i></a>
+                                                        </div>
+
+
+                                                    </div>*@
+                                              
+                                 </div><!-- /.cart-item -->
+
+                                <div class="clearfix"></div>
+                                <hr>
+
+                                <div class="clearfix cart-total">
+                                    <div class="pull-right">
+
+                                        <span class="text">Sub Total :</span><span class='price nn-cart-total numeral-init'>@ShoppingCart.Total</span>
+
+                                    </div>
+                                    <div class="clearfix"></div>
+
+                                    <a href="/Cart/Index" class="btn btn-upper btn-primary btn-block m-t-20">@*@Global.CheckOut*@CheckOut</a>
+                                </div><!-- /.cart-total-->
+
+
+                            </li>
+                        </ul><!-- /.dropdown-menu-->
+                    </div><!-- /.dropdown-cart -->
+                    <!-- ============================================================= SHOPPING CART DROPDOWN : END============================================================= -->
+                </div><!-- /.top-cart-row -->
+            </div><!-- /.row -->
+
+        </div><!-- /.container -->
+
+    </div><!-- /.main-header -->
+    @{ await Html.RenderPartialAsync("_Alerts"); }
+    <!-- ============================================== NAVBAR ============================================== -->
+    <div class="header-nav animate-dropdown">
+        <div class="container">
+            <div class="yamm navbar navbar-default" role="navigation">
+                <div class="navbar-header">
+                    <button data-target="#mc-horizontal-menu-collapse" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="nav-bg-class">
+                    <div class="navbar-collapse collapse" id="mc-horizontal-menu-collapse">
+                        <div class="nav-outer">
+                            <ul class="nav navbar-nav">
+                                <li class="active dropdown yamm-fw">
+                                    <a href="~/home/index">@*@Global.Home*@Home</a>
+                                  </li>  
+                                <li class="dropdown">
+                                    <a href="~/Product/ListBySpecial/Special">@*@Global.Special*@Special</a>
+                                  </li>  
+
+                                <li class="dropdown">
+
+                                    <a href="~/Product/ListBySpecial/Best">
+                                        @*@Global.BestSelling*@BestSelling
+                                        <span class="menu-label hot-menu hidden-xs">hot</span>
+                                    </a>
+                                </li>
+                                <li class="dropdown hidden-sm">
+
+                                    <a href="~/Product/ListBySpecial/Latest">
+                                      @*@Global.NewProducts*@NewProducts
+                                        <span class="menu-label new-menu hidden-xs">new</span>
+                                    </a>
+                                </li>
+
+                                <li class="dropdown hidden-sm">
+                                    <a href="/Product/ListBySpecial/SalesOff">@*@Global.SaleOff*@SaleOff</a>
+                                </li>
+                                <li class="dropdown hidden-sm">
+                                    <a href="/Product/ListBySpecial/Favorite">@*@Global.Favorite*@Favorite</a>
+                                </li>
+                                <li class="dropdown hidden-sm"> 
+                                    <a href="/Product/ListBySpecial/Views">@*@Global.BestView*@BestView</a>
+                                </li>
+                              
+
+                                 
+
+                            </ul><!-- /.navbar-nav -->
+                            <div class="clearfix"></div>
+                        </div><!-- /.nav-outer -->
+                    </div><!-- /.navbar-collapse -->
+
+
+                </div><!-- /.nav-bg-class -->
+            </div><!-- /.navbar-default -->
+        </div><!-- /.container-class -->
+
+    </div><!-- /.header-nav -->
+    <!-- ============================================== NAVBAR : END ============================================== -->
+
+</header>
+
+<!-- ============================================== HEADER : END ============================================== -->
+
+
+@section scripts{
+    <script>
+        $(function () {
+            // Xóa khỏi giỏ
+            $(".remove-from-cart").click(function () {
+                pid = $(this).attr("data-id");
+                tr = $(this).parents("tr");// tim <tr> chua <img> bi click
+                $.ajax({
+                    url: "/Cart/Remove",
+                    data: { id: pid },
+                    success: function (response) {
+                        $("#nn-cart-count").html(response.Count);
+                        $(".nn-cart-total").html(numeral(parseFloat(response.Total)));
+                        tr.hide(500);
+                    }
+                });
+            });
+            // Cập nhật số lượng
+            $(".quantity").keyup(function () {
+                pid = $(this).attr("data-id");
+                qty = $(this).val();
+                $.ajax({
+                    url: "/Cart/Update",
+                    data: { id: pid, quantity: qty },
+                    success: function (response) {
+                        $("#nn-cart-count").html(response.Count);
+                        $(".nn-cart-total").html(numeral(parseFloat(response.Total)));
+                        $("#" + pid).html(response.Name);
+                    }
+                });
+            });
+        });
+    </script>
+}

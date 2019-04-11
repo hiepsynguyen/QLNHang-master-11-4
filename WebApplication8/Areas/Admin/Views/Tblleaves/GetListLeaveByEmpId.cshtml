@@ -1,0 +1,29 @@
+﻿@model IEnumerable<DAL.QLNHangData.Tblleave>
+
+@foreach (var item in Model) {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.EmpId)
+    </td>
+    <td>
+        @item.StrDt.Value.ToString("dd/MM/yyyy")
+    </td>
+    <td>
+        @item.EndDt.Value.ToString("dd/MM/yyyy")
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.StrTm)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.EndTm)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.HouTt)
+    </td>
+    <td>
+        <a class="btn btn-warning btn-sm btn-flat" target="_blank" href="~/admin/Tblleaves/LeaveUpdate?EmpId=@item.EmpId&SeqNo=@item.SeqNo"><i class="fa fa-pencil"></i></a> |
+        <form style="display:inline" id="frm-del-@item.SeqNo-@item.EmpId" onsubmit="return deleteLeave('#frm-del-@item.SeqNo-@item.EmpId');">@Html.AntiForgeryToken()<input type="hidden" name="EmpId" value="@item.EmpId" /><input type="hidden" name="SeqNo" value="@item.SeqNo" /><button class="btn btn-danger btn-sm btn-flat"><i class="fa fa-close"></i></button></form>
+    </td>
+
+</tr>
+}

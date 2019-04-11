@@ -1,0 +1,100 @@
+﻿@model IEnumerable<DAL.QLNHangData.Tblleave>
+
+@{
+    ViewData["Title"] = "Quản lý nghỉ phép";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+    var list_emp = (List<DAL.QLNHangData.Tblemployee>)ViewData["list_emp"];
+}
+
+<div class="col-md-12">
+    <a class="btn btn-success btn-flat btn-sm" id="url-create-leave" href="#" data-burl="@Url.RouteUrl(new { controller="Tblleaves", action= "LeaveInsert",area="admin"})?EmpId={0}"><i class="fa fa-plus"></i></a>
+</div>
+<div class="col-md-12" >
+    <div class="table-responsive" style="max-height:50%">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Mã nhân viên</th>
+                    <th>Tên Nhân Viên</th>
+                    <th>Ngày vào làm</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var e in list_emp)
+                {
+                    <tr class="emp-details" data-id="@e.EmpId">
+                        <td>@e.EmpId</td>
+                        <td>@e.EmpNm</td>
+                        <td>@e.InhDt.Value.ToString("dd/MM/yyyy")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="col-md-12">
+    <div class="table-responsive" style="max-height:50%">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Mã nhân viên</th>
+                    <th>Ngày bắt đầu</th>
+                    <th>Ngày kết thúc</th>
+                    <th>Giờ bắt đầu</th>
+                    <th>Giờ kết thúc</th>
+                    <th>Tổng giờ nghỉ</th>
+                </tr>
+            </thead>
+            <tbody id="body-leave">
+
+            </tbody>
+        </table>
+    </div>
+</div>
+@section scripts{ 
+    <script>
+        $(document).ready(function () {
+            //alert('abc');
+            $('.emp-details').off().on('click', function (e) {
+                $('.emp-details').removeClass('bg-blue-selected');
+                $(this).addClass('bg-blue-selected');
+                var id = $(this).data('id');
+                var href_a = $('#url-create-leave').data('burl');
+                $('#url-create-leave').attr('href', href_a.replace('{0}', id));
+                $.ajax({
+                    url: '@Url.RouteUrl(new {controller= "Tblleaves", action= "GetListLeaveByEmpId", area="admin" })',
+                    data: {
+                        EmpId: id
+                    },
+                    type: 'GET',
+                    success: function (response) {
+                        $('#body-leave').html(response);
+                    },
+                    error: function (xhr) {
+
+                    }
+                });
+            });
+        });
+        function deleteLeave(idForm) {
+            if (confirm("Bạn muốn xóa ?")) {
+                $.post('@Url.RouteUrl(new {controller= "Tblleaves", action= "LeaveDelete", area="admin" })', $(idForm).serialize(), function (response) {
+                    console.log(response);
+                    if (typeof (response) === "object") {
+                        if (response.err === null) {
+                            $('.bg-blue-selected').click();
+                        }
+                        else {
+                            alert(response.err);
+                        }
+                    }
+                })
+
+                //console.log("Xóa");
+            }
+            return false;
+        }
+
+    </script>
+
+}

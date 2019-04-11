@@ -1,0 +1,27 @@
+﻿@using DAL.QLNHangData
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    var list_result = (List<Tblsalary>)ViewData["list_result"];
+}
+@{
+    foreach (var s in list_result)
+    {
+        <tr>
+            <td>
+                @s.ChaDt.Value.ToString("dd/MM/yyyy")
+            </td>
+            <td>
+                @String.Format("{0:n0}", s.Lcb.Value)
+            </td>
+            <td>
+                <a class="btn btn-flat btn-sm btn-warning" target="_blank" href="@Url.RouteUrl(new {controller="Tblsalaries",action="EditEmpId",area="admin"})?EmpId=@s.EmpId&SeqNo=@s.SeqNo"><i class="fa fa-pencil"></i></a> |
+                <button class="btn btn-flat btn-sm btn-danger"><i class="fa fa-close"></i></button>
+                @*@Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })*@
+            </td>
+        </tr>
+    }
+}

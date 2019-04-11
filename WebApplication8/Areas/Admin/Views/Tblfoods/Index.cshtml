@@ -1,0 +1,58 @@
+﻿@model IEnumerable<DAL.QLNHangData.Tblfood>
+
+@{
+    ViewData["Title"] = "Danh mục món ăn";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<p>
+    <a asp-action="Create" class="btn btn-success btn-flat btn-sm">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Tên món ăn
+            </th>
+            <th>
+                Mô tả
+            </th>
+            <th>
+                Giá
+            </th>
+            <th>
+                Hình ảnh
+            </th>
+            <th>
+                Đánh giá
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FodName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pic)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rate)
+            </td>
+            <td>
+                <a asp-action="Edit" class="btn btn-sm btn-flat btn-warning" asp-route-id="@item.FodId"><i class="fa fa-pencil"></i></a> |
+                @*<a asp-action="Details" asp-route-id="@item.FodId">Details</a> |*@
+                <a asp-action="Delete" asp-route-id="@item.FodId" class="btn btn-sm btn-flat btn-danger"><i class="fa fa-close"></i></a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

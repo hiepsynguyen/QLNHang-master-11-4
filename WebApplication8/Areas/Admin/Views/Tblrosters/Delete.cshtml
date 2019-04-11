@@ -1,0 +1,118 @@
+﻿@model DAL.QLNHangData.Tblroster
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Tblroster</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ShiNm)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ShiNm)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.MaxHr)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.MaxHr)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.MinHr)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.MinHr)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ConH1)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ConH1)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.AddH1)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.AddH1)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ConH2)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ConH2)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.AddH2)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.AddH2)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.BltNm)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.BltNm)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.BltDt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.BltDt)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.LstNm)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.LstNm)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.LstDt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.LstDt)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Tim02)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Tim02)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.OnnTm)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.OnnTm)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.OffTm)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.OffTm)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.NigSh)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NigSh)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.OnnOt)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.OnnOt)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="ShiId" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

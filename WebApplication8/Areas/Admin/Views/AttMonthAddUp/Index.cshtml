@@ -1,0 +1,94 @@
+﻿
+@using WebApplication8.Areas.Admin.Models.MonthAttendanceViewModels
+@model MonthAttendanceSearchViewModel
+@{
+    ViewData["Title"] = "Chi tiết tổng kết tháng";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+    var list_details = (List<MonthlyAttendanceViewModel>)ViewData["list_details"];
+}
+<style>
+    #range-datetime-dt .calendar-table {
+        display: none;
+    }
+</style>
+<div class="row col-md-12">
+    <div class="col-md-10">
+        <form action="" method="get">
+            <div class="col-md-3">
+                <div class="form-group">
+                    <input asp-for="EmpId" class="form-control" placeholder="Nhập mã nhân viên" />
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="col-md-12"><div class="form-group"><input asp-for="DateRange.StrDate" class="form-control" type="text" value="@Model.DateRange.StrDate.ToString("yyyy/MM")" placeholder="Tháng" /></div></div>
+            </div>
+            <div class="col-md-1">
+                <button class="btn btn-flat btn-primary btn-sm"><i class="fa fa-search"></i></button>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="col-md-12" style="margin-top:3px">
+    <div class="table-responsive">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Mã nhân viên</th>
+                    <th>Tên Nhân viên</th>
+                    <th>Năm tháng</th>
+                    <th>Bộ phận</th>
+                    <th>Giờ công        </th>
+                    <th>Ngày công       </th>
+                    <th>Giờ trễ        </th>
+                    <th>Giờ sớm        </th>
+                    <th>Giờ vắng       </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    foreach (var d in list_details)
+                    {
+                        <tr class="att-details" data-id="@d.matt.EmpId">
+                            <td>@d.matt.EmpId</td>
+                            <td>@d.Emp_nm</td>
+                            <td>@d.matt.YyyMm</td>
+                            <td>@d.Dep_nm</td>
+                            <td>@d.matt.AttHr</td>
+                            <td>@d.matt.AttDy</td>
+                            <td>@d.matt.LatMn</td>
+                            <td>@d.matt.EarMn</td>
+                            <td>@d.matt.AbsMn</td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+
+</div>
+@section scripts{ 
+    <script>
+        $(document).ready(function () {
+            //$('#DateRange_StrDate').date
+            $('#DateRange_StrDate').daterangepicker({
+                singleDatePicker: true,
+                //timePicker: true,
+                //alwaysShowCalendars: false,
+                //timePicker24Hour: true,
+                //parentEl: "#range-date-dt",
+                locale: {
+                    format: 'YYYY/MM'
+                }
+            }, function (start, end, label) {
+                //var _strD = moment(start.format('YYYY/MM') + "/01", "YYYY/MM/DD");
+                //$('#dt1').val(_strD.format("YYYY/MM/DD"));
+                //$('#dt2').val(_strD.add(1, 'months').add(-1, 'days').format('YYYY/MM/DD'));
+                //console.log(typeof (start));
+                //console.log("A new date selection was made: " + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD'));
+
+            });
+        });
+    </script>
+}
+

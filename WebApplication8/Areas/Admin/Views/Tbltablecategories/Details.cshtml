@@ -1,0 +1,43 @@
+﻿@model DAL.QLNHangData.Tbltablecategory
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Tbltablecategory</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TabcaName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TabcaName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Pic)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Pic)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Del)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Del)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.TabcaId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

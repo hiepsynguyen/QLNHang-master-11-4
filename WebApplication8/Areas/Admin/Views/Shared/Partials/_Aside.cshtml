@@ -1,0 +1,211 @@
+﻿
+@{
+    var username = "";
+    if (User.Identity.IsAuthenticated)
+    {
+        username = User.Identity.Name;
+    }
+    //var a = Url.RouteUrl(new {controller="",action="" });
+}
+<aside class="main-sidebar">
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar">
+        <!-- Sidebar user panel -->
+        <div class="user-panel">
+            <div class="pull-left image">
+                <img src="~/images/default-user-image.png" alt="@username Image" />
+            </div>
+            <div class="pull-left info">
+                <p>@username</p>
+                <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+            </div>
+            @*<div class="pull-left info">
+
+                    @if (User.Identity.IsAuthenticated)
+                    {
+
+
+
+
+
+                    }
+                    else
+                    {
+                        <a href="#"><i class="fa fa-circle text-success"></i> Offline</a>
+                    }
+
+                </div>*@
+        </div>
+        <!-- search form -->
+        @*<form action="#" method="get" class="sidebar-form">
+                <div class="input-group">
+                    <input type="text" name="q" class="form-control" placeholder="Search..." />
+                    <span class="input-group-btn">
+                        <button type='submit' name='search' id='search-btn' class="btn btn-flat"><i class="fa fa-search"></i></button>
+                    </span>
+                </div>
+            </form>*@
+        <form action="#" method="get" class="sidebar-form">
+            <div class="input-group">
+                <input type="text" name="q" class="form-control" placeholder="Search...">
+                <span class="input-group-btn">
+                    <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i></button>
+                </span>
+            </div>
+        </form>
+        <!-- /.search form -->
+        <!-- sidebar menu: : style can be found in sidebar.less -->
+        <ul class="sidebar-menu">
+            <li class="header">BẢNG CHỨC NĂNG</li>
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-file-pdf-o"></i>
+                    <span>Quản lý chấm công</span>
+                    <i class="fa fa-angle-left pull-right"></i>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="~/admin/attendance/dailyattendancelist"><i class="fa fa-circle-o"></i> Chi tiết chấm công</a></li>
+                    <li><a href="~/admin/Tblleaves"><i class="fa fa-circle-o"></i> Quản lý nghỉ phép</a></li>
+                    <li><a href="~/admin/AttMonthAddUp"><i class="fa fa-circle-o"></i> Chi tiết tổng kết tháng</a></li>
+                    <li><a href="~/admin/AttMonthAddUp/cal"><i class="fa fa-circle-o"></i> Tính tổng kết tháng</a></li>
+                    <li class="treeview">
+                        <a href="#">
+                            <i class="fa fa-file-pdf-o"></i>
+                            <span>Quản lý ca</span>
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li><a href="~/admin/Tblrosters"><i class="fa fa-circle-o"></i> Loại ca</a></li>
+                            <li><a href="#"><i class="fa fa-circle-o"></i> Sắp ca</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-file-pdf-o"></i>
+                    <span>Tính lương</span>
+                    <i class="fa fa-angle-left pull-right"></i>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="~/admin/Payroll/Cal"><i class="fa fa-circle-o"></i> Tính lương</a></li>
+                    <li class="treeview">
+                        <a href="#">
+                            <i class="fa fa-file-pdf-o"></i>
+                            <span>Quản lý lương</span>
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li><a href="~/admin/Payroll"><i class="fa fa-circle-o"></i> Chi tiết lương</a></li>
+                            <li><a href="~/admin/Tblsalaries"><i class="fa fa-circle-o"></i> Nhập lương</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-file-pdf-o"></i>
+                    <span>Danh mục</span>
+                    <i class="fa fa-angle-left pull-right"></i>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="~/admin/tbldeparments"><i class="fa fa-circle-o"></i> Bộ phận</a></li>
+                    <li><a href="~/admin/tblemployees"><i class="fa fa-circle-o"></i> Nhân viên</a></li>
+                </ul>
+            </li>
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-file-pdf-o"></i>
+                    <span>Quản lý thông tin khác</span>
+                    <i class="fa fa-angle-left pull-right"></i>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="#"><i class="fa fa-circle-o"></i> Món ăn</a></li>
+                    <li><a href="#"><i class="fa fa-circle-o"></i> Bàn</a></li>
+                    <li><a href="#"><i class="fa fa-circle-o"></i> Khu</a></li>
+                </ul>
+            </li>
+
+            <!--
+
+    <li>
+        <a href="~/admin/category">
+            <i class="fa fa-edit"></i> <span>Loại Sản Phẩm</span> <small class="label pull-right bg-green">new</small>
+        </a>
+    </li>
+
+    <li>
+        <a href="~/admin/supplier">
+            <i class="fa fa-users"></i> <span>Nhà Cung Cấp</span> <small class="label pull-right bg-green">new</small>
+        </a>
+    </li>
+
+    <li>
+        <a href="~/admin/products">
+            <i class="fa fa-barcode"></i> <span>Hàng Hóa</span> <small class="label pull-right bg-green">new</small>
+        </a>
+    </li>
+    <li>
+        <a href="~/admin/order">
+            <i class="fa fa-shopping-cart"></i> <span>Đơn Hàng</span> <small class="label pull-right bg-green">new</small>
+        </a>
+    </li>
+    <li>
+        <a href="~/admin/importstocks">
+            <i class="fa fa-truck"></i> <span>Nhập Kho</span> <small class="label pull-right bg-green">new</small>
+        </a>
+    </li>
+    <li>
+        <a href="~/admin/">
+            <i class="fa fa-list-alt"></i> <span>Tồn Kho</span> <small class="label pull-right bg-green">new</small>
+        </a>
+    </li>
+    <li>
+        <a href="~/admin/message">
+            <i class="fa fa-list-alt"></i><span>Chat</span> <small class="label pull-right bg-red">new</small>
+        </a>
+    </li>
+
+    <li class="treeview">
+        <a href="#">
+            <i class="fa fa-file-pdf-o"></i>
+            <span>Thống kê</span>
+            <i class="fa fa-angle-left pull-right"></i>
+        </a>
+        <ul class="treeview-menu">
+            <li><a href="~/Admin/Inventorymanagement/ByCategory"><i class="fa fa-circle-o"></i> Theo chủng loại</a></li>
+            <li><a href="~/Admin/Inventorymanagement/BySupplier"><i class="fa fa-circle-o"></i> Theo nhà cung cấp</a></li>
+
+
+        </ul>
+    </li>
+
+    <li class="treeview">
+        <a href="#">
+            <i class="fa fa-file-pdf-o"></i>
+            <span>Doanh số</span>
+            <i class="fa fa-angle-left pull-right"></i>
+        </a>
+        <ul class="treeview-menu">
+            <li><a href="~/Admin/Revenue/ByProduct"><i class="fa fa-circle-o"></i> Theo hàng hóa</a></li>
+            <li><a href="~/Admin/Revenue/ByCategory"><i class="fa fa-circle-o"></i> Theo chủng loại</a></li>
+            <li><a href="~/Admin/Revenue/BySupplier"><i class="fa fa-circle-o"></i> Theo nhà cung cấp</a></li>
+            <li class="divider"></li>
+            <li><a href="~/Admin/Revenue/ByCustomer"><i class="fa fa-circle-o"></i> Theo khách hàng</a></li>
+            <li><a href="~/Admin/Revenue/ByYear"><i class="fa fa-circle-o"></i> Theo năm</a></li>
+            <li><a href="~/Admin/Revenue/ByQuarter"><i class="fa fa-circle-o"></i> Theo quí</a></li>
+            <li><a href="~/Admin/Revenue/ByMonth"><i class="fa fa-circle-o"></i> Theo tháng</a></li>
+
+
+        </ul>
+    </li>
+        -->
+
+
+
+
+        </ul>
+    </section>
+    
+    <!-- /.sidebar -->
+</aside>

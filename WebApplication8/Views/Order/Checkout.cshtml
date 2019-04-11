@@ -1,0 +1,143 @@
+﻿@model WebApplication8.Models.WebShop.Order
+
+@{
+    ViewBag.Title = "Checkout";
+
+
+}
+
+<h2>Checkout</h2>
+
+@using (Html.BeginForm("Purchase", "Order", FormMethod.Post, new { id = "form-checkout" }))
+{
+    await Html.RenderPartialAsync("_Alerts");
+    @await Html.PartialAsync("Partials/_ErrorValidate")
+    <div class="form-horizontal">
+        <div class="form-group">
+            <label class="control-label col-md-2">Mã Khách Hàng</label>
+            <div class="col-md-10">
+                <input asp-for="CustomerId" class="form-control" readonly />
+            </div>
+        </div>
+
+        @*
+            <div class="form-group">
+              <label class="control-label col-md-2">Ngày tạo</label>
+              <div class="col-md-10">
+                
+        <input asp-for="OrderDate" class="form-control" value="" />
+    </div>
+        </div>
+    *@
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Ngày yêu cầu</label>
+            <div class="col-md-10">
+                @*  @Html.EditorFor(model => model.RequireDate, new { @class = "form-control" })*@
+                <input asp-for="RequireDate" class="form-control" value="@DateTime.Now.ToString("dd/MM/yyyy")"/>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Người nhận</label>
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.Receiver, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-md-2">Email Người nhận</label>
+            <div class="col-md-10">
+                <input asp-for="EmailContact" class="form-control"  />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Địa chỉ</label>
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.Address, new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Số điện thoại</label>
+            <div class="col-md-10">
+               @*@Html.TextBoxFor(model => model.Phone, new { @class = "form-control" })
+            *@ <input type="text" asp-for="Phone" class="form-control" id="Phone"/>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Tổng giá trị </label>
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.Amount, new { @class = "form-control", @readonly = "true" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Tài khoản Ngân Hàng</label>
+            <div class="col-md-10">
+                @Html.TextBox("BankAccount", null, new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Mô tả</label>
+            <div class="col-md-10">
+                @Html.TextAreaFor(model => model.Description, new { @class = "form-control", rows = "5" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Purchase" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+<h4>The Selected Items</h4>
+
+@*@Html.Action("OrderDetail", "Cart")
+*@
+@await Component.InvokeAsync("OrderDetail")
+@section scripts {
+<script src="~/Scripts/maskedInput/jquery.maskedinput.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#RequireDate").mask("99/99/9999");
+            //  $("#OrderDate").mask("99/99/9999");
+            $('#Phone').mask('0000-000-0000');
+            $('#Amount').mask('000,000,000,000,000', { reverse: true });
+           
+            $('#form-checkout').bootstrapValidator({
+                //live: 'disabled',
+                message: 'This value is not valid',
+                feedbackIcons: {
+                    valid: 'glyphicon glyphicon-ok',
+                    invalid: 'glyphicon glyphicon-remove',
+                    validating: 'glyphicon glyphicon-refresh'
+                },
+                fields: {
+                    
+                    RequireDate: {
+
+                        validators: {
+                            notEmpty: {
+                                message: 'Vui lòng nhập Ngày yêu câu giao hàng'
+                            },
+                            date: {
+                                format: 'DD/MM/YYYY',
+                                message: 'Sai dinh dạng dd/mm/yyyy'
+                            },
+                        }
+                    },
+                   
+                }
+            });
+
+
+
+         });
+    </script>
+
+}
